@@ -1,7 +1,7 @@
 #############################################################
 # Windows
 #############################################################
-{% if grains['os'] == 'Windows' and grains['osrelease'] == "2003Server" %}
+#{% if grains['os'] == 'Windows' and grains['osrelease'] == "2003Server" %}
 
 c:\scripts\wmi_inst\i386\MSI.MF_:
   file:                                     # state declaration
@@ -50,5 +50,5 @@ wmi_inst:
       - cmd: majreg
 
 
-{% endif %}
+#{% endif %}
 
