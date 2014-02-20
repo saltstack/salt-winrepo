@@ -1,4 +1,4 @@
-Python 3 (64-bit):
+python3:
   3.3.3:
     full_name: 'Python 3.3.3 (64-bit)'
     msiexec: True

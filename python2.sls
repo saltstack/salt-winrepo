@@ -1,4 +1,4 @@
-Python 2 (64-bit):
+python2:
   2.7.6:
     full_name: 'Python 2.7.6 (64-bit)'
     msiexec: True
