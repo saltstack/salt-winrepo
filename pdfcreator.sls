@@ -4,6 +4,6 @@ pdfcreator:
     full_name: 'PDFCreator 1.3.0'
     reboot: False
     locale: en_US
-    install_flags: ' /SP- /VERYSILENT /NORESTART'
-    uninstaller: '%PROGRAMFILES(x86)%\PDFCreator\unins000.exe'
+    install_flags: '/VERYSILENT /NORESTART /DontUseYahooSearch /SP-'
+    uninstaller: '%PROGRAMFILES(x86)%/PDFCreator/unins000.exe'
     uninstall_flags: ' /verysilent'
