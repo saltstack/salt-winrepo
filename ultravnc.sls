@@ -5,5 +5,5 @@ ultravnc:
     reboot: False
     locale: en_US
     install_flags: ' /verysilent /norestart '
-    uninstaller: 'Program Files (x86)\uvnc bcba\UltraVNC\unins000.exe'
+    uninstaller: '%programfiles(x86)%/uvnc bcba/UltraVNC/unins000.exe'
     uninstall_flags: ' /verysilent '
