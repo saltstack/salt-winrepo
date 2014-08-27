@@ -1,6 +1,7 @@
 # Source: http://www.google.nl/intl/en/chrome/business/browser/admin/
-chrome:
-  65.130.49228:
+chromedl:
+  # Source https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
+  latest:
     installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     full_name: 'Google Chrome'
     reboot: False
