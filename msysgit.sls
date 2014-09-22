@@ -1,7 +1,6 @@
-# Source https://msysgit.googlecode.com/files/Git-1.8.1.2-preview20130201.exe
 msysgit:
-  1.8.1.2-preview20130201:
-    installer: 'salt://win/repo/msysgit/Git-1.8.1.2.exe'
-    full_name: 'Git version 1.8.1.2-preview20130201'
+  1.9.4-preview20140815:
+    installer: 'https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140815/Git-1.9.4-preview20140815.exe'
+    full_name: 'Git version 1.9.4-preview20140815'
     reboot: False
     install_flags: ' /VERYSILENT /NOREBOOT'
