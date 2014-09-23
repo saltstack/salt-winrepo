@@ -5,6 +5,6 @@ python3_x86:
     installer: 'https://www.python.org/ftp/python/3.4.1/python-3.4.1.msi'
     install_flags: '/qn /norestart'
     uninstaller: 'https://www.python.org/ftp/python/3.4.1/python-3.4.1.msi'
-    uninstall_flags: '/qn'
+    uninstall_flags: ' /qn'
     locale: en_US
     reboot: False
