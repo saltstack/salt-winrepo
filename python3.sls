@@ -1,6 +1,6 @@
 python3:
   3.4.1150:
-    full_name: 'Python 3.4.1'
+    full_name: 'Python 3.4.1 (64-bit)'
     msiexec: True
     installer: 'https://www.python.org/ftp/python/3.4.1/python-3.4.1.amd64.msi'
     install_flags: ' /qn /norestart'
