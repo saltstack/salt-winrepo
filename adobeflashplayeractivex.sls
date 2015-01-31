@@ -7,5 +7,5 @@ adobeflashplayeractivex:
     install_flags: ' /quiet /norestart REMOVE_PREVIOUS=YES'
     msiexec: True
     uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {465571A6-29A2-4D39-B77D-3A1F6C964B65}
+    uninstall_flags: '/qn /x {465571A6-29A2-4D39-B77D-3A1F6C964B65}'
     
