@@ -1,4 +1,4 @@
-adobeflashplayer:
+adobeflashplayerplugin:
   16.0.0.296:
     full_name: 'Adobe Flash Player 16 NPAPI'
     installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_plugin.msi'
