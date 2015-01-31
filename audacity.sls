@@ -1,6 +1,6 @@
 audacity:
   2.0.3: 
-    installer: http://audacity.googlecode.com/files/audacity-win-2.0.3.exe
+    installer: 'http://audacity.googlecode.com/files/audacity-win-2.0.3.exe'
     full_name: Audacity 2.0.3
     locale: en_US
     reboot: False
