@@ -8,4 +8,4 @@ Documentation
 
 Official Salt documentation provides a getting started guide.
 
-http://docs.saltstack.com/ref/windows-package-manager.html
+http://docs.saltstack.com/en/latest/topics/windows/windows-package-manager.html
