@@ -1,6 +1,6 @@
 audacity:
   2.0.6:
-    installer: http://sourceforge.net/projects/audacity/files/audacity/2.0.6/audacity-win-2.0.6.exe/download
+    installer: 'http://heanet.dl.sourceforge.net/project/audacity/audacity/2.0.6/audacity-win-2.0.6.exe'
     full_name: Audacity 2.0.6
     locale: en_US
     reboot: False
