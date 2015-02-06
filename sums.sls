@@ -5,4 +5,4 @@ sums:
     reboot: False
     install_flags: '@powershell -NoProfile -ExecutionPolicy unrestricted -Command "$shell = new-object -com shell.application ; $dir = $shell.Namespace(); $zip = $shell.NameSpace("c:\salt\var\cache\salt\minion\extrn_files\base\nfllab.com\sums\sums611.zip") ; foreach($item in $zip.items()) { $shell.Namespace("%SystemRoot%").copyhere($item) }"'
     uninstaller: 'cmd'
-    uninstall_flags: '/c del /q /f %SystemRoot%\md5sum.exe & del /q /f %SystemRoot%\sha1sum.exe & del /q /f %SystemRoot%\sha224sum.exe & del /q /f %SystemRoot%\sha256sum.exe & del /q /f %SystemRoot%\sha384sum.exe & del /q /f %SystemRoot%\sha512sum.exe  exit 0'
+    uninstall_flags: '/c del /q /f %SystemRoot%\md5sum.exe & del /q /f %SystemRoot%\sha1sum.exe & del /q /f %SystemRoot%\sha224sum.exe & del /q /f %SystemRoot%\sha256sum.exe & del /q /f %SystemRoot%\sha384sum.exe & del /q /f %SystemRoot%\sha512sum.exe & exit 0'
