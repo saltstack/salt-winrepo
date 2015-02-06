@@ -2,11 +2,13 @@ sums:
   6.11:
     installer: |
                '@powershell -NoProfile -ExecutionPolicy unrestricted -Command "$shell = new-object -com shell.application
-                $source = "http://www.nfllab.com/sums/sums611.zip"
-                $destination = "c:\tmp\sums611.zip"
-                Invoke-Webrequest $source -OutFile $destination
-                $zip = $shell.NameSpace('c:\tmp\sums611.zip')
-                foreach($item in $zip.items()) { $shell.Namespace('c:\windows').copyhere($item,0x14) }"'
+               $shell = new-object -com shell.application
+               $source = "http://www.nfllab.com/sums/sums611.zip"
+               $destination = "c:\tmp\sums611.zip"
+               Invoke-Webrequest $source -OutFile $destination
+               $shell2 = new-object -com shell.application
+               $zip = $shell.NameSpace('c:\tmp\sums611.zip')
+               foreach($item in $zip.items()) { $shell.Namespace('c:\windows').copyhere($item,0x14) }'
     full_name: 'GNU coreutils sums (md5 sha1 sha224 sha256 sha384 sha512) ver. 6.11'
     reboot: False
     install_flags: ''
