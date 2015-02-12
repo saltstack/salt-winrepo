@@ -1,6 +1,6 @@
 curl:
   7.40.0:
-    installer 'salt://win/repo/curl/curl-7.40.0-win64.msi'
+    installer: 'salt://win/repo/curl/curl-7.40.0-win64.msi'
     full_name: 'cURL'
     reboot: False
     install_flags: '/qn /norestart'
