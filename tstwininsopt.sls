@@ -1,5 +1,5 @@
 # Source: 
-test-salt-installer-options:
+tstwininsopt:
   1.0:
     installer: |
                '@powershell -NoProfile -ExecutionPolicy unrestricted -Command "$shell = new-object -com shell.application
