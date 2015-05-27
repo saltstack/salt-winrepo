@@ -1,4 +1,14 @@
 Autopsy:
+  3.1.2: 
+    full_name: 'Autopsy'
+    msiexec: True
+    installer: 'http://heanet.dl.sourceforge.net/project/autopsy/autopsy/3.1.2/autopsy-3.1.2-64bit.msi'
+    install_flags: ' /qn /norestart'
+    msiexec: True
+    uninstaller: 'msiexec.exe'
+    uninstall_flags: ' /qn /x {8B36BA6B-D52D-4F60-9CA3-C1BEE99C896B}'
+    locale: en_US
+    reboot: False
   3.1.1: 
     full_name: 'Autopsy'
     msiexec: True
