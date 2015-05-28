@@ -20,3 +20,10 @@ Firefox:
     install_flags: ' /s '
     uninstaller: 'C:\Program Files (x86)\Mozilla Firefox\uninstall\helper.exe'
     uninstall_flags: ' /S'
+  38.0.1:
+    installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/38.0.1/win32/en-US/Firefox%20Setup%2038.0.1.exe'
+    full_name: 'Mozilla Firefox 38.0.1 (x86 en-US)'
+    reboot: False
+    install_flags: ' /s '
+    uninstaller: 'C:\Program Files (x86)\Mozilla Firefox\uninstall\helper.exe'
+    uninstall_flags: ' /S'
