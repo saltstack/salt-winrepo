@@ -1,4 +1,28 @@
 salt-minion_x86:
+  2014.7.5-2:
+    installer: 'https://docs.saltstack.com/downloads/Salt-Minion-2014.7.5-2-x86-Setup.exe'
+    full_name: 'Salt Minion v2014.7.5-2'
+    reboot: False
+    install_flags: '/S'
+    uninstaller: 'C:\salt\uninst.exe'
+    uninstall_flags: '/S'
+    refresh: true
+  2014.7.4:
+    installer: 'https://docs.saltstack.com/downloads/Salt-Minion-2014.7.4-x86-Setup.exe'
+    full_name: 'Salt Minion v2014.7.4'
+    reboot: False
+    install_flags: '/S'
+    uninstaller: 'C:\salt\uninst.exe'
+    uninstall_flags: '/S'
+    refresh: true
+  2014.7.2:
+    installer: 'https://docs.saltstack.com/downloads/Salt-Minion-2014.7.2-x86-Setup.exe'
+    full_name: 'Salt Minion v2014.7.2'
+    reboot: False
+    install_flags: '/S'
+    uninstaller: 'C:\salt\uninst.exe'
+    uninstall_flags: '/S'
+    refresh: true
   2014.7.1:
     installer: 'https://docs.saltstack.com/downloads/Salt-Minion-2014.7.1-x86-Setup.exe'
     full_name: 'Salt Minion v2014.7.1'
