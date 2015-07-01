@@ -1,4 +1,13 @@
 winscp:
+http://downloads.sourceforge.net/project/winscp/WinSCP/5.7.4/winscp574setup.exe?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fwinscp%2F%3Fsource%3Ddirectory&ts=1435780086&use_mirror=heanet
+  5.7.4:
+    installer: 'http://cznic.dl.sourceforge.net/project/winscp/WinSCP/5.7.4/winscp574setup.exe'
+    full_name: 'WinSCP 5.7.4'
+    reboot: False
+    locale: en_US
+    install_flags: ' /SP- /verysilent /norestart'
+    uninstaller: '%PROGRAMFILES(x86)%\WinSCP\unins000.exe'
+    uninstall_flags: ' /verysilent'
   5.7.3:
     installer: 'http://cznic.dl.sourceforge.net/project/winscp/WinSCP/5.7.3/winscp573setup.exe'
     full_name: 'WinSCP 5.7.3'
