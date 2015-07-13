@@ -1,4 +1,4 @@
-Autopsy:
+autopsy:
   3.1.3: 
     full_name: 'Autopsy'
     msiexec: True
