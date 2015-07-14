@@ -1,4 +1,13 @@
 adobeflashplayerplugin:
+  18.0.0.209:
+    full_name: 'Adobe Flash Player 18 NPAPI'
+    installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_plugin.msi'
+    reboot: False
+    locale: en_US
+    install_flags: ' /quiet /norestart REMOVE_PREVIOUS=YES'
+    msiexec: True
+    uninstaller: 'msiexec.exe'
+    uninstall_flags: '/qn /x {448D7DEC-36F1-4091-B419-C5487BDEB867}'
   18.0.0.203:
     full_name: 'Adobe Flash Player 18 NPAPI'
     installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_plugin.msi'
