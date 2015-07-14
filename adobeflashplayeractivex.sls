@@ -1,4 +1,13 @@
 adobeflashplayeractivex:
+  18.0.0.209:
+    full_name: 'Adobe Flash Player 18 ActiveX'
+    installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_active_x.msi'
+    reboot: False
+    locale: en_US
+    install_flags: ' /quiet /norestart REMOVE_PREVIOUS=YES'
+    msiexec: True
+    uninstaller: 'msiexec.exe'
+    uninstall_flags: '/qn /x {B3DADA45-F0ED-48FD-946E-7E82C2229D59}'
   18.0.0.203:
     full_name: 'Adobe Flash Player 18 ActiveX'
     installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_active_x.msi'
