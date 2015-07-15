@@ -1,4 +1,4 @@
-CDRoller:
+cdroller:
   10.0:
     full_name: 'CDRoller version 10.0'
     installer: 'http://cdroller.fileburst.com/CDRoller10_en.exe'
@@ -7,7 +7,6 @@ CDRoller:
     uninstall_flags: ' /VERYSILENT'
     locale: en_US
     reboot: False
-
   9.70:
     full_name: 'CDRoller'
     installer: 'http://cdroller.fileburst.com/CDRoller970_silent.exe'
