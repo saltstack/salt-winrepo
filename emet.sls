@@ -1,4 +1,4 @@
-Emet:
+emet:
   5.2:
     installer: 'http://download.microsoft.com/download/7/0/A/70AF5150-10DD-4838-ACFC-C4390B05620A/EMET%205.2%20Setup.msi'
     full_name: 'EMET 5.2'
