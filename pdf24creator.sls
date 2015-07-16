@@ -1,7 +1,7 @@
 # Source: http://en.pdf24.org/
 # Packagin info Source: https://chocolatey.org/packages/pdf24
 pdf24creator:
-  6.9.2.0:
+  6.9.2:
     installer: 'http://stx.pdf24.org/products/pdf-creator/download/pdf24-creator-6.9.2.msi'
     full_name: 'PDF24 Creator'
     reboot: False
