@@ -1,5 +1,5 @@
 keepass-1x.sls:
-  66.77.16516:
+  1.29:
     installer: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%201.x/1.29/KeePass-1.29.msi'
     full_name: 'KeePass 1.29'
     reboot: False
