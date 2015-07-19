@@ -6,7 +6,7 @@ windirstat_x86:
     reboot: False
     install_flags: |
                    '/S &
-                   reg ADD HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Uninstall\WinDirStat /v DisplayVersion /d 1.1.2
+                   reg ADD HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Uninstall\WinDirStat /v DisplayVersion /d 1.1.2 &
                    exit 0'
     uninstaller: '%ProgramFiles%\WinDirStat\uninstall.exe'
     uninstall_flags: '/S'
