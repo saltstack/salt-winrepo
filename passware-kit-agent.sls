@@ -1,4 +1,4 @@
-Passware Kit Agent:
+passware-kit-agent:
   13.1.7657:
     full_name: 'Passware Kit Agent (64-bit)'
     msiexec: True
