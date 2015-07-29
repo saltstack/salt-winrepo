@@ -1,5 +1,5 @@
 adobeair:
-  18.0.0.144:
+  18.0.0.180:
     full_name: 'Adobe AIR'
     installer: 'http://airdownload.adobe.com/air/win/download/18.0/AdobeAIRInstaller.exe'
     reboot: False
