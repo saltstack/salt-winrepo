@@ -6,7 +6,7 @@ tortoise-hg_x86:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {32EE1474-C960-41D4-AC26-60937B216B65}'
+    uninstaller: '{32EE1474-C960-41D4-AC26-60937B216B65}'
+    uninstall_flags: '/qn'
 # Need to download from source site above, so it will append proper aws key credentials
 # place downloaded msi in master's win_repo 
