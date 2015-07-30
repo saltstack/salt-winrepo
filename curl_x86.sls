@@ -5,8 +5,8 @@ curl_x86:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {69FC7423-4FC6-4767-946F-D346A297A8E6}'
+    uninstaller: '{69FC7423-4FC6-4767-946F-D346A297A8E6}'
+    uninstall_flags: '/qn'
 #    
 # You need to download the win32 msi from website (Captcha protected) and place in your winrepo on your master
 # http://www.confusedbycode.com/curl/#downloads
