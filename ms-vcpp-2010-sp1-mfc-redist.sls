@@ -5,5 +5,5 @@ ms-vcpp-2010-sp1-mfc-redist:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /norestart /x {1D8E6291-B0D5-35EC-8441-6616F567A0F7}'
+    uninstaller: '{1D8E6291-B0D5-35EC-8441-6616F567A0F7}'
+    uninstall_flags: '/qn /norestart'
