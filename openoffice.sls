@@ -4,8 +4,8 @@ openoffice:
     full_name: 'OpenOffice 4.1.1'
     reboot: False
     install_flags: '/S'
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {9395F41D-0F80-432E-9A59-B8E477E7E163}'
+    uninstaller: '{9395F41D-0F80-432E-9A59-B8E477E7E163}'
+    uninstall_flags: '/qn'
 
 #
 # for other languages replace the two occurrences of 'en-US' 
