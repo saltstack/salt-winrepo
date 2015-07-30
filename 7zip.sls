@@ -3,7 +3,7 @@
     installer: 'http://heanet.dl.sourceforge.net/project/sevenzip/7-Zip/9.20/7z920-x64.msi'
     full_name: '7-Zip 9.20 (x64 edition)'
     reboot: False
-    install_flags: ' /q '
+    install_flags: '/q'
     msiexec: True
-    uninstaller: 'http://heanet.dl.sourceforge.net/project/sevenzip/7-Zip/9.20/7z920-x64.msi' 
-    uninstall_flags: ' /qn'
+    uninstaller: '{23170F69-40C1-2702-0920-000001000000}' 
+    uninstall_flags: '/qn /norestart'
