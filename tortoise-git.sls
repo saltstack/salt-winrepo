@@ -6,5 +6,5 @@ tortoise-git:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {FFFF07A8-4BB4-41B8-A9D2-1C8217058CEA}'    
+    uninstaller: '{FFFF07A8-4BB4-41B8-A9D2-1C8217058CEA}'
+    uninstall_flags: '/qn'    

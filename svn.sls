@@ -5,6 +5,6 @@ svn:
       reboot: False
       install_flags: '/quiet'
       msiexec: True
-      uninstaller: 'msiexec.exe'
-      uninstall_flags: '/qn /x {034D91F7-44EC-4BF2-BF6C-97A95C779B21}'
+      uninstaller: '{034D91F7-44EC-4BF2-BF6C-97A95C779B21}'
+      uninstall_flags: '/qn'
  

@@ -5,5 +5,5 @@ ms-vcpp-2008-sp1-atl-redist:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /norestart /x {4B6C7001-C7D6-3710-913E-5BC23FCE91E6}'
+    uninstaller: '{4B6C7001-C7D6-3710-913E-5BC23FCE91E6}'
+    uninstall_flags: '/qn /norestart'
