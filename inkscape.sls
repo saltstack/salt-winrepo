@@ -5,6 +5,6 @@ inkscape:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {81922150-317E-4BB0-A31D-FF1C14F707C5}'
+    uninstaller: '{81922150-317E-4BB0-A31D-FF1C14F707C5}'
+    uninstall_flags: '/qn'
     
