@@ -5,6 +5,6 @@ tightvnc:
     reboot: False 
     install_flags: '/quiet /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/quiet /norestart /x {D2372F87-7DA2-47F7-A102-AF2181B8EAA2}'
+    uninstaller: '{D2372F87-7DA2-47F7-A102-AF2181B8EAA2}'
+    uninstall_flags: '/quiet /norestart'
     
