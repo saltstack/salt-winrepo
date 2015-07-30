@@ -5,5 +5,6 @@ adobereader-dc:
     reboot: False
     locale: en_US
     install_flags: ' /msi EULA_ACCEPT=YES REMOVE_PREVIOUS=YES /qn'
+    msiexec: True
     uninstaller: '{AC76BA86-7AD7-1033-7B44-AC0F074E4100}'
     uninstall_flags: '/qn'
