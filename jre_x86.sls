@@ -5,8 +5,8 @@ jre_x86:
     full_name: 'Java 7 Update 79'
     reboot: False
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F03217079FF}'
+    uninstaller: '{26A24AE4-039D-4CA4-87B4-2F03217079FF}'
+    uninstall_flags: '/qn'
     # due to winrepo installer limitations you need to manually download the exe from
     # http://javadl.sun.com/webapps/download/AutoDL?BundleId=106367
     # and put it on the winrepo on master to install it the 'salt://win/repo/jre_x86/... way    
@@ -14,4 +14,4 @@ jre_x86:
     installer: 'salt://win/repo/jre/jre-7u51-windows-i586.exe'
     full_name: 'Java 7 Update 51'
     reboot: False
-    uninstall_flags: ' /s '
+    uninstall_flags: '/s'
