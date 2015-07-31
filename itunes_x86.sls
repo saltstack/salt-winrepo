@@ -4,10 +4,9 @@ itunes_x86:
     install_flags: '/quiet /qn /norestart'
     full_name: 'iTunes'
     reboot: False
-    uninstaller: 'cmd'
+    uninstaller: '{79155F2B-9895-49D7-8612-D92580E0DE5B}'
     uninstall_flags: |
-                     '/c msiexec.exe /qn /norestart /x {79155F2B-9895-49D7-8612-D92580E0DE5B} &
-                     msiexec.exe /qn /norestart /x {789A5B64-9DD9-4BA5-915A-F0FC0A1B7BFE} &
+                     '& msiexec.exe /qn /norestart /x {789A5B64-9DD9-4BA5-915A-F0FC0A1B7BFE} &
                      msiexec.exe /qn /norestart /x {538227C6-C74B-4A74-99E1-2C0B4F9DA5E1} &
                      msiexec.exe /qn /norestart /x {7FE25256-B7C1-480D-B736-10A67A833AEA} &
                      msiexec.exe /qn /norestart /x {9DBBE7B8-EE7A-4FD9-9C7F-35E69A4C19D8} &                     
