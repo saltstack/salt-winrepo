@@ -5,5 +5,5 @@ keepass-1x.sls:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {94FAFD24-450A-4BBC-BC38-2A793DC887B1}'
+    uninstaller: '{94FAFD24-450A-4BBC-BC38-2A793DC887B1}'
+    uninstall_flags: '/qn'
