@@ -1,22 +1,15 @@
 putty:
+  0.65:
+    installer: 'http://the.earth.li/~sgtatham/putty/0.65/x86/putty-0.65-installer.exe'
+    full_name:  'PuTTY release 0.65'
+    reboot: False
+    install_flags: '/SP- /verysilent /norestart'
+    uninstaller: '%PROGRAMFILES(x86)%\PuTTY\unins000.exe'
+    uninstall_flags: '/SP- /verysilent /norestart'
   0.64:
     installer: 'http://the.earth.li/~sgtatham/putty/0.64/x86/putty-0.64-installer.exe'
-    full_name:  'PuTTY version 0.64'
+    full_name:  'PuTTY release 0.64'
     reboot: False
-    install_flags: '/sp- /verysilent'
+    install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\PuTTY\unins000.exe'
-    uninstall_flags: '/sp- /verysilent /norestart'
-  0.63:
-    installer: 'http://the.earth.li/~sgtatham/putty/0.63/x86/putty-0.63-installer.exe'
-    full_name:  'PuTTY version 0.63'
-    reboot: False
-    install_flags: '/sp- /verysilent'
-    uninstaller: '%PROGRAMFILES(x86)%\PuTTY\unins000.exe'
-    uninstall_flags: '/sp- /verysilent /norestart'
-  0.62:
-    installer: 'http://the.earth.li/~sgtatham/putty/0.62/x86/putty-0.62-installer.exe'
-    full_name: 'PuTTY version 0.62'
-    reboot: False
-    install_flags: '/sp- /verysilent'
-    uninstaller: '%PROGRAMFILES(x86)%\PuTTY\unins000.exe'
-    uninstall_flags: '/sp- /verysilent /norestart'    
+    uninstall_flags: '/SP- /verysilent /norestart'

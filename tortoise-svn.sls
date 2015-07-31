@@ -6,5 +6,5 @@ tortoise-svn:
     reboot: False
     install_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {A9E679EC-8FD4-49D8-A5A5-ACE462515A9E}'
+    uninstaller: '{A9E679EC-8FD4-49D8-A5A5-ACE462515A9E}'
+    uninstall_flags: '/qn'

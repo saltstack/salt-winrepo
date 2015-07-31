@@ -1,4 +1,4 @@
-ClamWin:
+clamwin:
   0.98.6: 
     full_name: 'ClamWin'
     installer: 'http://downloads.sourceforge.net/clamwin/clamwin-0.98.6-setup.exe'

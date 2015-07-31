@@ -1,4 +1,4 @@
-Passware Kit Forensic:
+passware-kit-forensic:
   13.1.7657:
     full_name: 'Passware Kit Forensic (64-bit)'
     msiexec: True

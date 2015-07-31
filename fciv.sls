@@ -5,5 +5,5 @@ fciv:
     reboot: False
     install_flags: '/q /c /t:%SystemRoot%'
     uninstaller: 'cmd'
-    uninstall_flags: '/c del /Q /F %SystemRoot%\fciv.exe'
+    uninstall_flags: '/c del /Q /F %SystemRoot%\fciv.exe  & del /q /f %SystemRoot%\ReadMe.txt'
     

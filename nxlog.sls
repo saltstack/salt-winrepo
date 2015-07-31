@@ -1,4 +1,13 @@
 nxlog:
+  2.9.1347:
+    installer: 'http://nxlog.org/system/files/products/files/1/nxlog-ce-2.9.1347.msi'
+    full_name:  'NXLog-CE'
+    reboot: False
+    install_flags: '/quiet /norestart'
+    msiexec: True
+    uninstaller: 'http://nxlog.org/system/files/products/files/1/nxlog-ce-2.9.1347.msi'
+    uninstall_flags: '/quiet /norestart'
+
   2.8.1248:
     installer: 'http://heanet.dl.sourceforge.net/project/nxlog-ce/nxlog-ce-2.8.1248.msi'
     full_name:  'NXLOG-CE'
