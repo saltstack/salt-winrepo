@@ -4,9 +4,9 @@ irfanview:
     installer: 'http://www.tucows.com/download/windows/files/iview438_setup.exe'
     reboot: False
     locale: en_US
-    install_flags: ' /silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0 '
+    install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
     uninstaller: '%PROGRAMFILES(x86)%\irfanview\iv_uninstall.exe'
-    uninstall_flags: ' /silent '
+    uninstall_flags: '/silent'
 # install_flags
 # folder:     destination folder; if not indicated: old IrfanView folder is used, if not found, the "Program Files" folder is used
 # silent:   silent install - no prompts
