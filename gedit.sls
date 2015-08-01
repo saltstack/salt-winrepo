@@ -4,6 +4,6 @@ gedit:
     full_name: Gedit 2.30.1
     locale: en_US
     reboot: False
-    install_flags: ' /sp- /verysilent /norestart'
+    install_flags: '/sp- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\gedit\unins000.exe'
-    uninstall_flags: ' /verysilent'
+    uninstall_flags: '/verysilent'
