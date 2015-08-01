@@ -12,7 +12,7 @@ ultravnc_x86:
     full_name: 'UltraVnc'
     reboot: False
     locale: en_US
-    install_flags: ' /verysilent /norestart '
+    install_flags: '/verysilent /norestart'
     uninstaller: '%programfiles(x86)%/uvnc bvba/UltraVNC/unins000.exe'
-    uninstall_flags: ' /verysilent '  
+    uninstall_flags: '/verysilent'  
     

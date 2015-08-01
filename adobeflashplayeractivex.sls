@@ -4,7 +4,7 @@ adobeflashplayeractivex:
     installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_active_x.msi'
     reboot: False
     locale: en_US
-    install_flags: ' /quiet /norestart REMOVE_PREVIOUS=YES'
+    install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
     msiexec: True
     uninstaller: '{B3DADA45-F0ED-48FD-946E-7E82C2229D59}'
     uninstall_flags: '/qn'
@@ -13,7 +13,7 @@ adobeflashplayeractivex:
     installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_active_x.msi'
     reboot: False
     locale: en_US
-    install_flags: ' /quiet /norestart REMOVE_PREVIOUS=YES'
+    install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
     msiexec: True
     uninstaller: '{57B3953E-BB96-418D-9228-57B7082B921A}'
     uninstall_flags: '/qn'
@@ -22,7 +22,7 @@ adobeflashplayeractivex:
     installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_active_x.msi'
     reboot: False
     locale: en_US
-    install_flags: ' /quiet /norestart REMOVE_PREVIOUS=YES'
+    install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
     msiexec: True
     uninstaller: '{901E9B21-CDB1-4C4A-ABFC-61A554912BED}'
     uninstall_flags: '/qn'
@@ -31,7 +31,7 @@ adobeflashplayeractivex:
     installer: 'http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_active_x.msi'
     reboot: False
     locale: en_US
-    install_flags: ' /quiet /norestart REMOVE_PREVIOUS=YES'
+    install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
     msiexec: True
     uninstaller: '{465571A6-29A2-4D39-B77D-3A1F6C964B65}'
     uninstall_flags: '/qn'

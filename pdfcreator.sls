@@ -6,4 +6,4 @@ pdfcreator:
     locale: en_US
     install_flags: '/VERYSILENT /NORESTART /DontUseYahooSearch /SP- /LOADINF="//linux/install/PDFCreator/setup.inf"'
     uninstaller: '%PROGRAMFILES(x86)%/PDFCreator/unins000.exe'
-    uninstall_flags: ' /verysilent'
+    uninstall_flags: '/verysilent'
