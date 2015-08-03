@@ -1,4 +1,4 @@
-keepass-1x.sls:
+keepass:
   1.29.0:
     installer: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%201.x/1.29/KeePass-1.29.msi'
     full_name: 'KeePass 1.29'
