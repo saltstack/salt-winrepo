@@ -1,6 +1,6 @@
 ms-vcpp-2008-sp1-mfc-redist_x86:
   9.0.30729.6161:
-    installer: 'http://download.microsoft.com/download/1/1/1/1116b75a-9ec3-481a-a3c8-1777b5381140/vcredist_x86.exe'
+    installer: 'http://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe'
     full_name: 'Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161'
     reboot: False
     install_flags: '/qn /norestart'
