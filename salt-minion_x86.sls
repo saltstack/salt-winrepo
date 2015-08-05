@@ -23,14 +23,6 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
-  2015.5.3:
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.3-x86-Setup.exe'
-    full_name: 'Salt Minion v2015.5.3'
-    reboot: False
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
   2015.5.2:
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.2-x86-Setup.exe'
     full_name: 'Salt Minion v2015.5.2'
