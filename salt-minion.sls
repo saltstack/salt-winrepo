@@ -1,4 +1,12 @@
 salt-minion:
+  2015.8.0rc3:
+    installer: 'https://docs.saltstack.com/downloads/Salt-Minion-2015.8.0rc3-AMD64-Setup.exe'
+    full_name: 'Salt Minion v2015.8.0rc3'
+    reboot: False
+    install_flags: '/S'
+    uninstaller: 'C:\salt\uninst.exe'
+    uninstall_flags: '/S'
+    refresh: true
   2015.8.0rc2:
     installer: 'https://docs.saltstack.com/downloads/Salt-Minion-2015.8.0rc2-AMD64-Setup.exe'
     full_name: 'Salt Minion v2015.8.0rc2'
