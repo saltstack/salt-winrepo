@@ -1,4 +1,4 @@
-awscli_x64:
+awscli:
   latest:
     full_name: 'AWS Command Line Interface'
     msiexec: True
