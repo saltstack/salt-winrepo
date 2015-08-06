@@ -1,5 +1,13 @@
 # Source: http://www.google.nl/intl/en/chrome/business/browser/admin/ 
 chrome:
+  66.88.49277:
+    installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
+    full_name: 'Google Chrome'
+    reboot: False
+    install_flags: '/qn /norestart'
+    msiexec: True
+    uninstaller: '{DBA7719B-28D4-30D9-98DE-E689280E4D7E}'
+    uninstall_flags: '/qn'
   66.88.49259:
     installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     full_name: 'Google Chrome'

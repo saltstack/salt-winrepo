@@ -8,4 +8,4 @@ chromedl:
     install_flags: '/qn /norestart'
     msiexec: True
     uninstaller: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
-    uninstall_flags: '/qn'
+    uninstall_flags: '/qn /norestart'
