@@ -30,7 +30,7 @@ blender:
     locale: en_US
     reboot: False
   2.68:
-    installer: 'http://ftp.nluug.nl/pub/graphics/blender/release//Blender2.68/blender-2.68-windows32.exe'
+    installer: 'http://ftp.nluug.nl/pub/graphics/blender/release//Blender2.68/blender-2.68-windows64.exe'
     full_name:  'Blender'
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\Blender Foundation\Blender\uninstall.exe'
