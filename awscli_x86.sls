@@ -4,7 +4,7 @@ awscli_x86:
     installer: https://s3.amazonaws.com/aws-cli/AWSCLI32.msi
     install_flags: '/qn /norestart'
     uninstaller: https://s3.amazonaws.com/aws-cli/AWSCLI32.msi
-    uninstall_flags: '/qn'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
     locale: en_US
     reboot: False
