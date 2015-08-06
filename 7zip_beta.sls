@@ -6,9 +6,9 @@
 7zip_beta:
   15.05:
     full_name: '7-Zip 15.05 beta x64'
-    reboot: False
-    locale: en_US
     installer: 'http://heanet.dl.sourceforge.net/project/sevenzip/7-Zip/15.05/7z1505-x64.exe'
     install_flags: '/S /D="{{ PROGRAM_FILES }}\7-zip_beta"'
     uninstaller: '{{ PROGRAM_FILES }}\7-zip_beta\Uninstall.exe' 
     uninstall_flags: '/S'
+    reboot: False
+    locale: en_US
