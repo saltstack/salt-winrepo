@@ -1,3 +1,8 @@
+{% if grains['cpuarch'] == 'AMD64' %}
+    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+{% else %}
+    {% set PROGRAM_FILES = "C:\Program Files" %}
+{% endif %}
 windirstat:
   1.1.2:
     #installer: 'http://prdownloads.sourceforge.net/windirstat/windirstat1_1_2_setup.exe'
@@ -8,5 +13,5 @@ windirstat:
                    '/S &
                    reg ADD HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Uninstall\WinDirStat /v DisplayVersion /d 1.1.2 &
                    exit 0'
-    uninstaller: '%ProgramFiles(x86)%\WinDirStat\uninstall.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\WinDirStat\uninstall.exe'
     uninstall_flags: '/S'

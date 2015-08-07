@@ -1,49 +1,31 @@
-wireshark-64:
+# both 32-bit (x86) AND a 64-bit (AMD64) installer available
+{% if grains['cpuarch'] == 'AMD64' or grains['cpuarch'] == 'x86' %}
+    {% set PROGRAM_FILES = "C:\Program Files" %}
+{% endif %}
+wireshark:
   1.12.6:
+    {% if grains['cpuarch'] == 'AMD64' %}
+    full_name: 'Wireshark 1.12.6 (64-bit)'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.6.exe'
-    full_name:  'Wireshark 1.12.6 (64-bit)'
-    reboot: False
+    {% elif grains['cpuarch'] == 'x86' %}
+    full_name: 'Wireshark 1.12.6'
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win32-1.12.6.exe'
+    {% endif %}
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
-
+    locale: en_US
+    reboot: False
   1.12.1:
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.1.exe'
+    {% if grains['cpuarch'] == 'AMD64' %}
     full_name:  'Wireshark 1.12.1 (64-bit)'
-    reboot: False
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.1.exe'
+     {% elif grains['cpuarch'] == 'x86' %}
+    full_name:  'Wireshark 1.12.1'
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win32-1.12.1.exe'
+    {% endif %}    
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
-
-  1.11.1:
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.11.1.exe'
-    full_name:  'Wireshark 1.11.1 (64-bit)'
+    locale: en_US
     reboot: False
-    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
-    uninstall_flags: '/S'
-
-  1.11.0:
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.11.0.exe'
-    full_name:  'Wireshark 1.11.0 (64-bit)'
-    reboot: False
-    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
-    uninstall_flags: '/S'
-
-wireshark-32:
-  1.11.1:
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-1.11.1.exe'
-    full_name:  'Wireshark 1.11.1 (32-bit)'
-    reboot: False
-    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '%PROGRAMFILES(x86)%\Wireshark\uninstall.exe'
-    uninstall_flags: '/S'
-
-  1.11.0:
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-1.11.0.exe'
-    full_name:  'Wireshark 1.11.0 (32-bit)'
-    reboot: False
-    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '%PROGRAMFILES(x86)%\Wireshark\uninstall.exe'
-    uninstall_flags: '/S'
