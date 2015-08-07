@@ -6,7 +6,7 @@ wireshark:
   1.12.6:
     {% if grains['cpuarch'] == 'AMD64' %}
     full_name: 'Wireshark 1.12.6 (64-bit)'
-    installer: ''http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.6.exe'
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.6.exe'
     {% elif grains['cpuarch'] == 'x86' %}
     full_name: 'Wireshark 1.12.6'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win32-1.12.6.exe'
