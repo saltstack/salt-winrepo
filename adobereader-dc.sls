@@ -6,4 +6,4 @@ adobereader-dc:
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /norestart'
     locale: en_US
-    reboot: False    
+    reboot: False
