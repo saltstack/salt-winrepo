@@ -1,18 +1,18 @@
+# just 32-bit x86 installer available
+{% if grains['cpuarch'] == 'AMD64' %}
+    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+{% else %}
+    {% set PROGRAM_FILES = "C:\Program Files" %}
+{% endif %}
 gpg4win-light:
   2.2.4:
-    installer: 'http://files.gpg4win.org/gpg4win-light-2.2.4.exe'
     full_name: 'Gpg4Win (2.2.4)'
-    reboot: False
+    installer: 'http://files.gpg4win.org/gpg4win-light-2.2.4.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles%\GNU\GnuPG\gpg4win-uninstall.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\GNU\GnuPG\gpg4win-uninstall.exe'
     uninstall_flags: '/S'
-  2.2.3:
-    installer: 'http://files.gpg4win.org/gpg4win-light-2.2.3.exe'
-    full_name: 'Gpg4Win (2.2.3)'
+    locale: en_US
     reboot: False
-    install_flags: '/S'
-    uninstaller: '%ProgramFiles%\GNU\GnuPG\gpg4win-uninstall.exe'
-    uninstall_flags: '/S'
 #
 # Note: this 2.2.3 light installer has a bug and it needs to be fixed upstream 
 # Here are work around instructions under Issue #113 in the meantime
