@@ -7,12 +7,11 @@
 blender:
   2.75:
     msiexec: True
-    {% if grains['cpuarch'] == 'AMD64' %}
     full_name: 'Blender'
+    {% if grains['cpuarch'] == 'AMD64' %}
     installer: 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.75/blender-2.75-windows64.msi'
     uninstaller: 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.75/blender-2.75-windows64.msi'    
     {% elif grains['cpuarch'] == 'x86' %}
-    full_name: 'Blender'
     installer: 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.75/blender-2.75-windows32.msi'
     uninstaller: 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.75/blender-2.75-windows32.msi'   
     {% endif %}
