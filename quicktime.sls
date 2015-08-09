@@ -6,8 +6,8 @@ quicktime:
     uninstaller: 'msiexec.exe'
     uninstall_flags: |
                      '/qn /x {789A5B64-9DD9-4BA5-915A-F0FC0A1B7BFE} /norestart &
-                     msiexec.exe /qn /x {46F044A5-CE8B-4196-984E-5BD6525E361D} &
-                     msiexec.exe /qn /x {627FFC10-CE0A-497F-BA2B-208CAC638010} &
+                     msiexec.exe /qn /x {46F044A5-CE8B-4196-984E-5BD6525E361D} /norestart &
+                     msiexec.exe /qn /x {627FFC10-CE0A-497F-BA2B-208CAC638010} /norestart &
                      exit 0'
     locale: en_US
     reboot: False
