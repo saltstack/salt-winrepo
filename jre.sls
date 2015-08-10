@@ -29,6 +29,5 @@ jre:
     installer: 'salt://win/repo/jre/jre-7u51-windows-i586.exe'
     {% endif %}
     install_flags: '/s'
-    uninstall_flags: '/s'    
     locale: en_US
     reboot: False
