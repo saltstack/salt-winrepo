@@ -1,8 +1,15 @@
+# just 32-bit x86 installer available
+{% if grains['cpuarch'] == 'AMD64' %}
+    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+{% else %}
+    {% set PROGRAM_FILES = "C:\Program Files" %}
+{% endif %}
 glarysoft-absolute-uninstaller:
   5.3.1.19:
-    installer: 'http://download.glarysoft.com/ausetup.exe'
     full_name: 'Absolute Uninstaller 5.3.1.19'
-    reboot: False
+    installer: 'http://download.glarysoft.com/ausetup.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\Glarysoft\Absolute Uninstaller 5\uninst.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\Glarysoft\Absolute Uninstaller 5\uninst.exe'
     uninstall_flags: '/S'
+    locale: en_US
+    reboot: False

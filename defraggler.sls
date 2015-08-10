@@ -1,9 +1,15 @@
+# just 32-bit x86 installer available
+{% if grains['cpuarch'] == 'AMD64' %}
+    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+{% else %}
+    {% set PROGRAM_FILES = "C:\Program Files" %}
+{% endif %}
 defraggler:
   2.18.945:
-    installer: 'http://download.piriform.com/dfsetup218.exe'
     full_name: 'Defraggler 2.18'
-    reboot: False
+    installer: 'http://download.piriform.com/dfsetup218.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles%\Defraggler\uninst.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\Defraggler\uninst.exe'
     uninstall_flags: '/S'
- 
+    locale: en_US
+    reboot: False

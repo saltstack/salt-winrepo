@@ -1,8 +1,7 @@
 chocolatey:
   0.9.8:
-    installer: 'https://chocolatey.org/installChocolatey.cmd'
     full_name: 'Chocolatey v0.9.8'
-    reboot: False
+    installer: 'https://chocolatey.org/installChocolatey.cmd'
     install_flags: | 
                    ' &
                    reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f & 
@@ -18,6 +17,7 @@ chocolatey:
                      del /F /S /Q c:\chocolatey\*.* > NUL &
                      reg DEL HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f &
                      exit 0'
+    reboot: False
 #
 # this software also has it's own salt execution module, which you might prefer to use, see
 # http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.chocolatey.html
