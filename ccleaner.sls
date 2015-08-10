@@ -9,7 +9,7 @@ ccleaner:
     full_name: 'CCleaner 5.07'
     installer: 'http://download.piriform.com/ccsetup507.exe'
     install_flags: '/S'
-    uninstaller: '{{ PROGRAM_FILES }}\CCleaner\uninst.exe'
+    uninstaller: '"{{ PROGRAM_FILES }}\CCleaner\uninst.exe"'
     uninstall_flags: '/S'
     locale: en_US
     reboot: False
