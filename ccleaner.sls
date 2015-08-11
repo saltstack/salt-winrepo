@@ -1,24 +1,15 @@
+# just 32-bit x86 installer available
+{% if grains['cpuarch'] == 'AMD64' %}
+    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+{% else %}
+    {% set PROGRAM_FILES = "C:\Program Files" %}
+{% endif %}
 ccleaner:
   5.07:
     full_name: 'CCleaner 5.07'
     installer: 'http://download.piriform.com/ccsetup507.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\CCleaner\uninst.exe'
-    uninstall_flags: '/S'
-    locale: en_US
-    reboot: False
-  5.06:
-    full_name: 'CCleaner 5.06'
-    installer: 'http://download.piriform.com/ccsetup506.exe'
-    install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\CCleaner\uninst.exe'
-    uninstall_flags: '/S'
-    reboot: False
-  5.02.5101:
-    full_name: 'CCleaner 5.02'
-    installer: 'http://download.piriform.com/ccsetup502.exe'
-    install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\CCleaner\uninst.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\CCleaner\uninst.exe'
     uninstall_flags: '/S'
     locale: en_US
     reboot: False
