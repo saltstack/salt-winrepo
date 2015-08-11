@@ -1,19 +1,21 @@
 pdf24creator:
   7.0.6:
+    full_name: 'PDF24 Creator'
+    msiexec: True
     installer: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.6.msi'
-    full_name: 'PDF24 Creator'
-    reboot: False
     install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
-    msiexec: True
-    uninstaller: '{4275E42C-3FC5-4AB0-8AE0-38A7D6D6B187}'
-    uninstall_flags: '/qn'
+    uninstaller: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.6.msi'
+    uninstall_flags: '/qn /norestart'
+    locale: en_US
+    reboot: False
   6.9.2:
-    installer: 'http://stx.pdf24.org/products/pdf-creator/download/pdf24-creator-6.9.2.msi'
     full_name: 'PDF24 Creator'
-    reboot: False
-    install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
     msiexec: True
-    uninstaller: '{6BDC67D0-567D-45A8-AE5E-2697DAF7B4E0}'
-    uninstall_flags: '/qn'
+    installer: 'http://stx.pdf24.org/products/pdf-creator/download/pdf24-creator-6.9.2.msi'
+    install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
+    uninstaller: 'http://stx.pdf24.org/products/pdf-creator/download/pdf24-creator-6.9.2.msi'
+    uninstall_flags: '/qn /norestart'
+    locale: en_US
+    reboot: False
 # Source: http://en.pdf24.org/
 # Packagin info Source: https://chocolatey.org/packages/pdf24

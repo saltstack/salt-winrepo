@@ -1,7 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
-{% if grains['cpuarch'] == 'AMD64' or grains['cpuarch'] == 'x86' %}
-    {% set PROGRAM_FILES = "C:\Program Files" %}
-{% endif %}
+{% set PROGRAM_FILES = "C:\Program Files" %}
 wireshark:
   1.12.6:
     {% if grains['cpuarch'] == 'AMD64' %}
@@ -20,7 +18,7 @@ wireshark:
     {% if grains['cpuarch'] == 'AMD64' %}
     full_name:  'Wireshark 1.12.1 (64-bit)'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.1.exe'
-     {% elif grains['cpuarch'] == 'x86' %}
+    {% elif grains['cpuarch'] == 'x86' %}
     full_name:  'Wireshark 1.12.1'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win32-1.12.1.exe'
     {% endif %}    
