@@ -1,23 +1,24 @@
 ccleaner:
   5.07:
-    installer: 'http://download.piriform.com/ccsetup507.exe'
     full_name: 'CCleaner 5.07'
-    reboot: False
+    installer: 'http://download.piriform.com/ccsetup507.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles%\CCleaner\uninst.exe'
+    uninstaller: '%ProgramFiles(x86)%\CCleaner\uninst.exe'
     uninstall_flags: '/S'
+    locale: en_US
+    reboot: False
   5.06:
-    installer: 'http://download.piriform.com/ccsetup506.exe'
     full_name: 'CCleaner 5.06'
-    reboot: False
+    installer: 'http://download.piriform.com/ccsetup506.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles%\CCleaner\uninst.exe'
+    uninstaller: '%ProgramFiles(x86)%\CCleaner\uninst.exe'
     uninstall_flags: '/S'
+    reboot: False
   5.02.5101:
-    installer: 'http://download.piriform.com/ccsetup502.exe'
     full_name: 'CCleaner 5.02'
-    reboot: False
+    installer: 'http://download.piriform.com/ccsetup502.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles%\CCleaner\uninst.exe'
+    uninstaller: '%ProgramFiles(x86)%\CCleaner\uninst.exe'
     uninstall_flags: '/S'
-     
+    locale: en_US
+    reboot: False

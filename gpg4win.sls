@@ -1,15 +1,15 @@
+# just 32-bit x86 installer available
+{% if grains['cpuarch'] == 'AMD64' %}
+    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+{% else %}
+    {% set PROGRAM_FILES = "C:\Program Files" %}
+{% endif %}
 gpg4win:
   2.2.4:
-    installer: 'http://files.gpg4win.org/gpg4win-2.2.4.exe'
     full_name: 'Gpg4Win (2.2.4)'
-    reboot: False
+    installer: 'http://files.gpg4win.org/gpg4win-2.2.4.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\GNU\GnuPG\gpg4win-uninstall.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\GNU\GnuPG\gpg4win-uninstall.exe'
     uninstall_flags: '/S'
-  2.2.3:
-    installer: 'http://files.gpg4win.org/gpg4win-2.2.3.exe'
-    full_name: 'Gpg4Win (2.2.3)'
+    locale: en_US
     reboot: False
-    install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\GNU\GnuPG\gpg4win-uninstall.exe'
-    uninstall_flags: '/S'
