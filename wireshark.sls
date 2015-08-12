@@ -1,29 +1,33 @@
-# both 32-bit (x86) AND a 64-bit (AMD64) installer available
-{% set PROGRAM_FILES = "C:\Program Files" %}
 wireshark:
   1.12.6:
-    {% if grains['cpuarch'] == 'AMD64' %}
-    full_name: 'Wireshark 1.12.6 (64-bit)'
+    full_name:  'Wireshark 1.12.6 (64-bit)'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.6.exe'
-    {% elif grains['cpuarch'] == 'x86' %}
-    full_name: 'Wireshark 1.12.6'
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win32-1.12.6.exe'
-    {% endif %}
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '{{ PROGRAM_FILES }}\Wireshark\uninstall.exe'
+    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
     locale: en_US
     reboot: False
   1.12.1:
-    {% if grains['cpuarch'] == 'AMD64' %}
     full_name:  'Wireshark 1.12.1 (64-bit)'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.12.1.exe'
-    {% elif grains['cpuarch'] == 'x86' %}
-    full_name:  'Wireshark 1.12.1'
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win32-1.12.1.exe'
-    {% endif %}    
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
-    uninstaller: '{{ PROGRAM_FILES }}\Wireshark\uninstall.exe'
+    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
+    uninstall_flags: '/S'
+    locale: en_US
+    reboot: False
+  1.11.1:
+    full_name:  'Wireshark 1.11.1 (64-bit)'
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.11.1.exe'
+    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
+    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
+    uninstall_flags: '/S'
+    locale: en_US
+    reboot: False
+  1.11.0:
+    full_name:  'Wireshark 1.11.0 (64-bit)'
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.11.0.exe'
+    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
+    uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
     locale: en_US
     reboot: False

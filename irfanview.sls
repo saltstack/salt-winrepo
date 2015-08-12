@@ -1,18 +1,12 @@
-# just 32-bit x86 installer available
-{% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
-{% else %}
-    {% set PROGRAM_FILES = "C:\Program Files" %}
-{% endif %}
 irfanview:
   4.38:
-    full_name: 'IrfanView (remove only)'
     installer: 'http://www.tucows.com/download/windows/files/iview438_setup.exe'
-    install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=1 /assoc=0'
-    uninstaller: '{{ PROGRAM_FILES }}\irfanview\iv_uninstall.exe'
+    full_name: 'IrfanView (remove only)'
+    install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
+    uninstaller: '%PROGRAMFILES(x86)%\irfanview\iv_uninstall.exe'
     uninstall_flags: '/silent'
     locale: en_US
-    reboot: False    
+    reboot: False
 # install_flags
 # folder:     destination folder; if not indicated: old IrfanView folder is used, if not found, the "Program Files" folder is used
 # silent:   silent install - no prompts

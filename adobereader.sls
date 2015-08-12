@@ -1,8 +1,3 @@
-{% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
-{% else %}
-    {% set PROGRAM_FILES = "C:\Program Files" %}
-{% endif %}
 adobereader:
   10.1.4:
     full_name: 'Adobe Reader 10.1.4'
