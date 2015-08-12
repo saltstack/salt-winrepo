@@ -8,7 +8,7 @@ saltstack.minion:
     {% elif grains['cpuarch'] == 'x86' %}
     installer: 'https://repo.saltstack.com/downloads/Salt-Minion-{{ version }}-x86-Setup.exe'
     {% endif %}
-    #install_flags: ' /S /master={{ salt['pillar.get']('salt:master', 'salt.domain.tld') }} /minion-id={{ salt['pillar.get']('salt:minion:ids:{{ grains['host'] }}' }}'
+    #install_flags: '/S /master={{ salt['pillar.get']('salt:master', 'salt.domain.tld') }} /minion-id={{ salt['pillar.get']('salt:minion:ids:{{ grains['host'] }}', }}'
     install_flags: '/S'
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
