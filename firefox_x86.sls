@@ -15,3 +15,10 @@ firefox_x86:
     uninstall_flags: '/S'    
     locale: en_US
     reboot: False
+  40.0:
+    installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/40.0/win32/en-US/Firefox%20Setup%2040.0.exe'
+    full_name: 'Mozilla Firefox 40.0 (x86 en-US)'
+    reboot: False
+    install_flags: '/s'
+    uninstaller: '%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe'
+    uninstall_flags: '/S'
