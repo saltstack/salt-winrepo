@@ -5,7 +5,7 @@ git-extensions:
     installer: 'http://kent.dl.sourceforge.net/project/gitextensions/Git%20Extensions/Version%202.48.05/GitExtensions-2.48.05-Setup.msi'
     install_flags: '/qn /norestart'
     uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x /norestart'
+    uninstall_flags: '/qn /x {5A90DC0D-D527-4F69-A75F-403F57910FFC} /norestart'
     locale: en_US
     reboot: False
   2.48.03:
