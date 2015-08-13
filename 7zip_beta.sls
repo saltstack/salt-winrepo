@@ -1,9 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
-{% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "%ProgramFiles%" %}
-{% else %}
-    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
-{% endif %}
+{% set PROGRAM_FILES = "%ProgramFiles%" %}
 7zip_beta:
   15.05:
     {% if grains['cpuarch'] == 'AMD64' %}
