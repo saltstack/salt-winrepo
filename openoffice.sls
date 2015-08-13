@@ -1,12 +1,12 @@
 openoffice:
   4.1.1: 
-    installer: 'http://downloads.sourceforge.net/project/openofficeorg.mirror/4.1.1/binaries/en-US/Apache_OpenOffice_4.1.1_Win_x86_install_en-US.exe'
     full_name: 'OpenOffice 4.1.1'
-    reboot: False
+    installer: 'http://downloads.sourceforge.net/project/openofficeorg.mirror/4.1.1/binaries/en-US/Apache_OpenOffice_4.1.1_Win_x86_install_en-US.exe'
     install_flags: '/S'
-    msiexec: True
-    uninstaller: '{9395F41D-0F80-432E-9A59-B8E477E7E163}'
-    uninstall_flags: '/qn'
+    uninstaller: 'msiexec.exe'
+    uninstall_flags: '/qn /x {9395F41D-0F80-432E-9A59-B8E477E7E163} /norestart'
+    locale: en_US
+    reboot: False    
 #
 # for other languages replace the two occurrences of 'en-US' 
 # in the download URL with your local two or four letter code below:
