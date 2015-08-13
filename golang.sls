@@ -1,10 +1,16 @@
 golang:
   1.4.2:
-    full_name: 'Go 1.4.2 (64-bit)'
     msiexec: True
+    {% if grains['cpuarch'] == 'AMD64' %}
+    full_name: 'Go 1.4.2 (64-bit)'
     installer: 'https://storage.googleapis.com/golang/go1.4.2.windows-amd64.msi'
-    install_flags: '/qn /norestart'
     uninstaller: 'https://storage.googleapis.com/golang/go1.4.2.windows-amd64.msi'
-    uninstall_flags: '/qn'
+    {% elif grains['cpuarch'] == 'x86' %}
+    full_name: 'Go 1.4.2'
+    installer: 'https://storage.googleapis.com/golang/go1.4.2.windows-386.msi'
+    uninstaller: 'https://storage.googleapis.com/golang/go1.4.2.windows-386.msi'
+    {% endif %}
+    install_flags: '/qn /norestart'
+    uninstall_flags: '/qn /norestart'
     locale: en_US
     reboot: False
