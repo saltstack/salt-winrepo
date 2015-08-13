@@ -1,8 +1,8 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
 {% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "C:\Program Files" %}
+    {% set PROGRAM_FILES = "%ProgramFiles%" %}
 {% else %}
-    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
 {% endif %}
 awscli:
   latest:

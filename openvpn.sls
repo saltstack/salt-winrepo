@@ -1,5 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
-{% set PROGRAM_FILES = "C:\Program Files" %}
+{% set PROGRAM_FILES = "%ProgramFiles%" %}
 openvpn:
   2.3.8:
     full_name: 'OpenVPN 2.3.8-I601'

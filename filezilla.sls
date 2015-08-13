@@ -1,5 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
-{% set PROGRAM_FILES = "C:\Program Files" %}
+{% set PROGRAM_FILES = "%ProgramFiles%" %}
 filezilla:
   3.11.0.2:
     full_name: 'FileZilla Client 3.11.0.2'

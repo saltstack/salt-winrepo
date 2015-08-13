@@ -1,7 +1,7 @@
 {% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
 {% else %}
-    {% set PROGRAM_FILES = "C:\Program Files" %}
+    {% set PROGRAM_FILES = "%ProgramFiles%" %}
 {% endif %}
 ultravnc:
   1.2.05:

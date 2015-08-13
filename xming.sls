@@ -1,9 +1,9 @@
 # http://www.straightrunning.com/XmingNotes/setupcmdline.htm
 # just 32-bit x86 installer available
 {% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "C:\Program Files (x86)" %}
+    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
 {% else %}
-    {% set PROGRAM_FILES = "C:\Program Files" %}
+    {% set PROGRAM_FILES = "%ProgramFiles%" %}
 {% endif %}
 xming:
   6.9.0.31:
