@@ -1,3 +1,9 @@
+# just 32-bit x86 installer available
+{% if grains['cpuarch'] == 'AMD64' %}
+    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
+{% else %}
+    {% set PROGRAM_FILES = "%ProgramFiles%" %}
+{% endif %}
 # Source: http://www.cpuid.com/softwares/cpu-z.html
 cpu-z:
   1.71.1:
@@ -5,7 +11,7 @@ cpu-z:
     full_name: 'CPUID CPU-Z 1.17.1'
     reboot: False
     install_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
-    uninstaller: '%ProgramFiles(x86)%\CPU-Z\unins000.exe'
+    uninstaller: '{{ PROGRAM_FILES }}\CPU-Z\unins000.exe'
     uninstall_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
 # need to manually download from:
 # http://www.cpuid.com/softwares/cpu-z.html (ftp DL is cookie protected)
