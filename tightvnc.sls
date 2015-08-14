@@ -1,10 +1,15 @@
 tightvnc:
   2.7.10.0:
-    installer: 'http://www.tightvnc.com/download/2.7.10/tightvnc-2.7.10-setup-64bit.msi'
     full_name: 'TightVNC'
-    reboot: False 
+    {% if grains['cpuarch'] == 'AMD64' %}
+    installer: 'http://www.tightvnc.com/download/2.7.10/tightvnc-2.7.10-setup-64bit.msi'
+    uninstaller: 'http://www.tightvnc.com/download/2.7.10/tightvnc-2.7.10-setup-64bit.msi'
+    {% elif grains['cpuarch'] == 'x86' %}
+    installer: 'http://www.tightvnc.com/download/2.7.10/tightvnc-2.7.10-setup-32bit.msi'
+    uninstaller: 'http://www.tightvnc.com/download/2.7.10/tightvnc-2.7.10-setup-32bit.msi'
+    {% endif %}
     install_flags: '/quiet /norestart'
-    msiexec: True
-    uninstaller: '{D2372F87-7DA2-47F7-A102-AF2181B8EAA2}'
     uninstall_flags: '/quiet /norestart'
-    
+    msiexec: True
+    locale: en_US
+    reboot: False
