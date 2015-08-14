@@ -1,10 +1,17 @@
 # Source: https://code.google.com/p/tortoisegit/
-tortoise-git:
+tortoise-git: 
   1.8.13.0:
-    installer: 'http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-1.8.13.0-64bit.msi'
+    {% if grains['cpuarch'] == 'AMD64' %}
     full_name: 'TortoiseGit 1.8.13.0 (64 bit)'
-    reboot: False
+    installer: 'http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-1.8.13.0-64bit.msi'
+    uninstaller: 'http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-1.8.13.0-64bit.msi'
+    {% elif grains['cpuarch'] == 'x86' %}
+    full_name: 'TortoiseGit 1.8.13.0 (32 bit)'
+    installer: 'http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-1.8.13.0-32bit.msi'
+    uninstaller: 'http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-1.8.13.0-32bit.msi'
+    {% endif %}
     install_flags: '/qn /norestart'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: '{FFFF07A8-4BB4-41B8-A9D2-1C8217058CEA}'
-    uninstall_flags: '/qn'    
+    locale: en_US
+    reboot: False
