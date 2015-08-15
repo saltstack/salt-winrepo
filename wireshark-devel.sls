@@ -5,6 +5,7 @@ wireshark-devel:
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   1.99.0:
@@ -13,5 +14,6 @@ wireshark-devel:
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

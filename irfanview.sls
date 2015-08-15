@@ -5,6 +5,7 @@ irfanview:
     install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
     uninstaller: '%PROGRAMFILES(x86)%\irfanview\iv_uninstall.exe'
     uninstall_flags: '/silent'
+    msiexec: False
     locale: en_US
     reboot: False
 # install_flags

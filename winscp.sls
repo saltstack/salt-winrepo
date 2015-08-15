@@ -5,6 +5,7 @@ winscp:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\WinSCP\unins000.exe'
     uninstall_flags: '/verysilent'
+    msiexec: False
     locale: en_US
     reboot: False
   5.7.3:
@@ -13,6 +14,7 @@ winscp:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\WinSCP\unins000.exe'
     uninstall_flags: '/verysilent'
+    msiexec: False
     locale: en_US
     reboot: False
   5.5.6:
@@ -21,6 +23,7 @@ winscp:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\WinSCP\unins000.exe'
     uninstall_flags: '/verysilent'
+    msiexec: False
     locale: en_US
     reboot: False
   5.5:
@@ -29,5 +32,6 @@ winscp:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\WinSCP\unins000.exe'
     uninstall_flags: '/verysilent'
+    msiexec: False
     locale: en_US
     reboot: False

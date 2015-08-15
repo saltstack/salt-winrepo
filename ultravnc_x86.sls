@@ -5,6 +5,7 @@ ultravnc_x86:
     install_flags: '/VERYSILENT /NORESTART'
     uninstaller: '%ProgramFiles(x86)%/uvnc bvba/UltraVNC/unins000.exe'
     uninstall_flags: '/VERYSILENT /NORESTART'
+    msiexec: False
     locale: en_US
     reboot: False
   1.1.9.6:
@@ -13,5 +14,6 @@ ultravnc_x86:
     install_flags: '/verysilent /norestart'
     uninstaller: '%programfiles(x86)%/uvnc bvba/UltraVNC/unins000.exe'
     uninstall_flags: '/verysilent'  
+    msiexec: False
     locale: en_US
     reboot: False

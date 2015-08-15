@@ -5,6 +5,7 @@ gpg4win-light:
     install_flags: '/S'
     uninstaller: '%ProgramFiles(x86)%\GNU\GnuPG\gpg4win-uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   2.2.3:
@@ -13,6 +14,7 @@ gpg4win-light:
     install_flags: '/S'
     uninstaller: '%ProgramFiles(x86)%\GNU\GnuPG\gpg4win-uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
 #

@@ -1,10 +1,11 @@
 mysql-essential:
   5.1.73:
-      installer: 'http://cdn.mysql.com/Downloads/MySQL-5.1/mysql-essential-5.1.73-winx64.msi'
-      full_name: 'MySQL Server 5.1'
-      reboot: False
-      install_flags: '/qn /norestart'
-      msiexec: True
-      uninstaller: '{6CB8C034-1F5F-44E9-A4A8-D418F91F4B8A}'
-      uninstall_flags: '/qn'
+    full_name: 'MySQL Server 5.1'
+    installer: 'http://cdn.mysql.com/Downloads/MySQL-5.1/mysql-essential-5.1.73-winx64.msi'
+    install_flags: '/qn ALLUSERS=1 /norestart'
+    uninstaller: 'http://cdn.mysql.com/Downloads/MySQL-5.1/mysql-essential-5.1.73-winx64.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
     

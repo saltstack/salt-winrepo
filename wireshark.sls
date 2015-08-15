@@ -5,6 +5,7 @@ wireshark:
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   1.12.1:
@@ -13,6 +14,7 @@ wireshark:
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   1.11.1:
@@ -21,6 +23,7 @@ wireshark:
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   1.11.0:
@@ -29,5 +32,6 @@ wireshark:
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%PROGRAMFILES%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

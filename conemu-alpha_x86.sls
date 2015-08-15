@@ -5,5 +5,6 @@ conemu-alpha_x86:
     install_flags: '/p:x86,adm /passive /qn /norestart'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {2D45F5AB-DA52-4E4D-B8D0-D4795F57A93F} /norestart'
+    msiexec: False
     locale: en_US
     reboot: False
