@@ -12,6 +12,7 @@ itunes:
                      msiexec.exe /qn /norestart /x {B255D495-4734-4E9B-B4F5-96702FD4A7B9} &
                      msiexec.exe /qn /norestart /x {6CF1A7E2-8001-4870-9F18-3C6CDD6FE9E3} &                 
                      exit 0'
+    msiexec: False
     locale: en_US
     reboot: False
 # the above uninstalls:

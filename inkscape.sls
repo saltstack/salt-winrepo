@@ -1,10 +1,10 @@
 inkscape:
   0.91:
-    installer: 'https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.91-x64.msi'
     full_name: 'Inkscape 0.91'
-    reboot: False
+    installer: 'https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.91-x64.msi'
     install_flags: '/qn /norestart'
+    uninstaller: 'https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.91-x64.msi'
+    uninstall_flags: '/qni /norestart'
     msiexec: True
-    uninstaller: '{81922150-317E-4BB0-A31D-FF1C14F707C5}'
-    uninstall_flags: '/qn'
-    
+    locale: en_US
+    reboot: False

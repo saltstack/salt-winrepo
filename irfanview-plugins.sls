@@ -5,5 +5,6 @@ irfanview-plugins:
     install_flags: '/silent'
     uninstaller: ''
     uninstall_flags: '' 
+    msiexec: False
     locale: en_US
     reboot: False    

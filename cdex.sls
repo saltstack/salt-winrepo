@@ -5,6 +5,7 @@ cdex:
     install_flags: '/S'
     uninstaller: '%PROGRAMFILES(x86)%\CDex\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   1.75:
@@ -13,6 +14,7 @@ cdex:
     install_flags: '/S'
     uninstaller: '%PROGRAMFILES(x86)%\CDex\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   1.72:
@@ -21,5 +23,6 @@ cdex:
     install_flags: '/S'
     uninstaller: '%PROGRAMFILES(x86)%\CDex\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

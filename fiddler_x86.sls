@@ -5,6 +5,7 @@ fiddler_x86:
     install_flags: '/S /D=%ProgramFiles%\Fiddler'
     uninstaller: '%PROGRAMFILES%\Fiddler\uninst.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   2.5.1.2:
@@ -13,5 +14,6 @@ fiddler_x86:
     install_flags: '/S /D=%ProgramFiles%\Fiddler'
     uninstaller: '%PROGRAMFILES%\Fiddler\uninst.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

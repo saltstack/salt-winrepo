@@ -9,5 +9,6 @@ windirstat:
                    exit 0'
     uninstaller: '%ProgramFiles(x86)%\WinDirStat\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

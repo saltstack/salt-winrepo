@@ -5,6 +5,7 @@ openvpn_x86:
     install_flags: '/S /SELECT_OPENSSL_UTILITIES=1 /SELECT_EASYRSA=1 /SELECTSHORTCUTS=1 /SELECTOPENVPN=1 /SELECTASSOCIATIONS=1 /SELECTOPENVPNGUI=1 /SELECTPATH=1'
     uninstaller: '%PROGRAMFILES%\OpenVPN\Uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   2.3.6:
@@ -13,6 +14,7 @@ openvpn_x86:
     install_flags: '/S /SELECT_OPENSSL_UTILITIES=1 /SELECT_EASYRSA=1 /SELECTSHORTCUTS=1 /SELECTOPENVPN=1 /SELECTASSOCIATIONS=1 /SELECTOPENVPNGUI=1 /SELECTPATH=1'
     uninstaller: '%PROGRAMFILES%\OpenVPN\Uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
 #

@@ -6,5 +6,6 @@ openlp:
     install_flags: '/SP- /VERYSILENT /NORESTART'
     uninstaller: '%ProgramFiles(x86)%\OpenLP\unins000.exe'
     uninstall_flags: '/SP- /VERYSILENT /NORESTART'
+    msiexec: False
     locale: en_US
     reboot: False

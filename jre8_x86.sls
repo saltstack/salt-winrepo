@@ -5,6 +5,7 @@ jre8_x86:
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F83218051F0} /norestart'
+    msiexec: False
     locale: en_US
     reboot: False
     # due to winrepo installer limitations you need to manually download the exe from
@@ -18,6 +19,7 @@ jre8_x86:
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F83218045F0} /norestart'
+    msiexec: False
     locale: en_US
     reboot: False
     # due to winrepo installer limitations you need to manually download the exe from

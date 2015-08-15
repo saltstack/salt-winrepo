@@ -5,5 +5,6 @@ winscp_x86:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES%\WinSCP\unins000.exe'
     uninstall_flags: '/verysilent'
+    msiexec: False
     locale: en_US
     reboot: False

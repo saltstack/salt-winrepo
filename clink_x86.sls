@@ -5,6 +5,7 @@ clink_x86:
     install_flags: '/S'
     uninstaller: '%Program Files%\clink\0.4.4\clink_uninstall_0.4.4.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
 # https://mridgers.github.io/clink/

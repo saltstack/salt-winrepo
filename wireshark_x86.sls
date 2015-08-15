@@ -5,5 +5,6 @@ wireshark_x86:
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%ProgramFiles%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

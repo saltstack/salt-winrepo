@@ -5,5 +5,6 @@ icloud:
     install_flags: '/qn /norestart'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {709A2D23-C25E-47B5-9268-CB6FEE648504} /norestart' 
+    msiexec: False
     locale: en_US
     reboot: False

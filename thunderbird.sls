@@ -5,6 +5,7 @@ thunderbird:
     install_flags: '-ms'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Thunderbird\uninstall\helper.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   38.0.1:
@@ -13,6 +14,7 @@ thunderbird:
     install_flags: '-ms'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Thunderbird\uninstall\helper.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   31.7.0:
@@ -21,6 +23,7 @@ thunderbird:
     install_flags: '-ms'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Thunderbird\uninstall\helper.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   31.4.0:
@@ -29,5 +32,6 @@ thunderbird:
     install_flags: '-ms'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Thunderbird\uninstall\helper.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
