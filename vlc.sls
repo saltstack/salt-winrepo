@@ -11,5 +11,6 @@ vlc:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\VideoLAN\VLC\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

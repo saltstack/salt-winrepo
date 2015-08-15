@@ -11,5 +11,6 @@ ultradefrag:
     install_flags: '/S /FULL=1'
     uninstaller: '{{ PROGRAM_FILES }}\UltraDefrag\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

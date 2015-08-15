@@ -1,4 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
+{% set PROGRAM_FILES = "%ProgramFiles%" %}
 jre:
   7.0.790:
     {% if grains['cpuarch'] == 'AMD64' %}
@@ -15,6 +16,7 @@ jre:
     {% endif %}
     uninstaller: 'msiexec.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
+    msiexec: False
     locale: en_US
     reboot: False
     # due to winrepo installer limitations you need to manually download the exe from
@@ -29,5 +31,6 @@ jre:
     installer: 'salt://win/repo/jre/jre-7u51-windows-i586.exe'
     {% endif %}
     install_flags: '/s'
+    msiexec: False
     locale: en_US
     reboot: False

@@ -1,9 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
-{% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "%ProgramFiles%" %}
-{% else %}
-    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
-{% endif %}
+{% set PROGRAM_FILES = "%ProgramFiles%" %}
 conemu-preview:
   11.150.7050:
     {% if grains['cpuarch'] == 'AMD64' %}
@@ -17,6 +13,7 @@ conemu-preview:
     install_flags: '/p:x86,adm /passive /qn /norestart'
     uninstall_flags: '/qn /x {A6D3B1A7-F481-465C-BA61-99822A47D1C6} /norestart'
     {% endif %}
+    msiexec: False
     uninstaller: 'msiexec.exe'
     locale: en_US
     reboot: False

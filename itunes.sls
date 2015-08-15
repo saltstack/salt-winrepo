@@ -1,4 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
+{% set PROGRAM_FILES = "%ProgramFiles%" %}
 itunes:
   12.2.1.16:
     full_name: 'iTunes'
@@ -35,7 +36,8 @@ itunes:
     # Apple Application Support (32-bit) {7FE25256-B7C1-480D-B736-10A67A833AEA}
     # iTunes v. 12.2.1.16 {9DBBE7B8-EE7A-4FD9-9C7F-35E69A4C19D8}
     {% endif %}
-    install_flags: '/quiet /qn /norestart'
+    install_flags: '/quiet /qn ALLUSERS=1 /norestart'
     uninstaller: 'msiexec.exe'
+    msiexec: False
     locale: en_US
     reboot: False

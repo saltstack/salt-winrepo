@@ -11,5 +11,6 @@ filezilla:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\FileZilla FTP Client\uninstall.exe' 
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

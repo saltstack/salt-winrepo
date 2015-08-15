@@ -1,9 +1,5 @@
 # both 32-bit (x86) AND a 64-bit (AMD64) installer available
-{% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "%ProgramFiles%" %}
-{% else %}
-    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
-{% endif %}
+{% set PROGRAM_FILES = "%ProgramFiles%" %}
 conemu-alpha:
   11.150.7160:
     {% if grains['cpuarch'] == 'AMD64' %}
@@ -18,5 +14,6 @@ conemu-alpha:
     uninstall_flags: '/qn /x {2D45F5AB-DA52-4E4D-B8D0-D4795F57A93F} /norestart'  
     {% endif %}
     uninstaller: 'msiexec.exe'
+    msiexec: False
     locale: en_US
     reboot: False    

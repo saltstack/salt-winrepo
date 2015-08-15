@@ -12,5 +12,6 @@
     install_flags: '/S /D="C:\Program Files\7-zip_beta"'
     uninstaller: '{{ PROGRAM_FILES }}\7-zip_beta\Uninstall.exe' 
     uninstall_flags: '/S'
+    msiexec: False
     reboot: False
     locale: en_US

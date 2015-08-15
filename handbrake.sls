@@ -12,6 +12,7 @@ handbrake:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\Handbrake\uninst.exe'
     uninstall_flags: '/S' 
+    msiexec: False
     locale: en_US
     reboot: False
 # alternative download URL 64-bit
