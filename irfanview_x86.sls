@@ -1,7 +1,7 @@
 irfanview_x86:
   4.38:
     full_name: 'IrfanView (remove only)'
-    installer: 'http://www.tucows.com/download/windows/files/iview438_setup.exe'
+    installer: 'salt://win/repo/irfanview/iview438_setup.exe'
     install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
     uninstaller: '%PROGRAMFILES%\irfanview\iv_uninstall.exe'
     uninstall_flags: '/silent'
@@ -18,3 +18,4 @@ irfanview_x86:
 # assoc:     if used, set file associations; 0 = none, 1 = images only, 2 = select all (default: 0)
 # assocallusers:  if used, set associations for all users (Windows XP only)
 # ini:      if used, set custom INI file folder (system environment variables are allowed)
+# download manually from: http://www.irfanview.info/files/iview438_setup.exe and place on master
