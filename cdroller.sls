@@ -5,6 +5,7 @@ cdroller:
     install_flags: '/VERYSILENT /MERGETASKS="set_edr_mode,cdroller_desktopicon,manual_desktopicon,quickref_desktopicon"'
     uninstaller: '%PROGRAMFILES(x86)%\CDRoller\unins000.exe'
     uninstall_flags: '/VERYSILENT'
+    msiexec: False
     locale: en_US
     reboot: False
   9.70:
@@ -13,5 +14,6 @@ cdroller:
     install_flags: ' /verysilent /tasks="set_edr_mode"'
     uninstaller: '%PROGRAMFILES(x86)%\CDRoller 9.70\unins000.exe'
     uninstall_flags: '/verysilent'
+    msiexec: False
     locale: en_US
     reboot: False

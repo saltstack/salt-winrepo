@@ -6,6 +6,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2015.8.0rc2:
@@ -15,6 +16,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2015.5.3-2:
@@ -24,6 +26,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2015.5.2:
@@ -33,6 +36,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2015.5.1-3:
@@ -42,6 +46,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2015.5.0-2:
@@ -51,6 +56,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.7.5-2:
@@ -60,6 +66,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.7.4:
@@ -69,6 +76,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.7.2:
@@ -78,6 +86,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.7.1:
@@ -87,6 +96,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.13:
@@ -96,6 +106,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.11:
@@ -105,6 +116,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.10:
@@ -114,6 +126,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.7:
@@ -123,6 +136,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.5:
@@ -132,6 +146,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.4:
@@ -141,6 +156,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.3-1:
@@ -150,6 +166,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.3:
@@ -159,6 +176,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.1:
@@ -168,6 +186,7 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False
   2014.1.0:
@@ -177,5 +196,6 @@ salt-minion_x86:
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
     refresh: true
+    msiexec: False
     locale: en_US
     reboot: False

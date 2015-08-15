@@ -6,5 +6,6 @@ win-app-manager:
     install_flags: '/SP- /VERYSILENT /NORESTART'
     uninstaller: '%ProgramFiles(x86)%\WinApp Manager\unins000.exe'
     uninstall_flags: '/SP- /VERYSILENT /NORESTART'
+    msiexec: False
     locale: en_US
     reboot: False

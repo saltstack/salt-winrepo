@@ -5,6 +5,7 @@ wamp-stack:
     install_flags: '--mode unattended --base_password salt-installer-secret --apache_server_port 8080'
     uninstaller: 'c:\Bitnami\wampstack-5.4.36-0\uninstall.exe'
     uninstall_flags: '--mode unattended'
+    msiexec: False
     locale: en_US
     reboot: False
     

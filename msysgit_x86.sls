@@ -5,6 +5,7 @@ msysgit_x86:
     install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
     uninstaller: '%ProgramFiles%\Git\unins000.exe'
     uninstall_flags: '/VERYSILENT /NORESTART '
+    msiexec: False
     locale: en_US
     reboot: False
   1.9.5-preview20141217:
@@ -13,6 +14,7 @@ msysgit_x86:
     install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
     uninstaller: '%ProgramFiles%\Git\unins000.exe'
     uninstall_flags: '/VERYSILENT /NORESTART'
+    msiexec: False
     locale: en_US
     reboot: False
   1.9.4-preview20140815:
@@ -21,5 +23,6 @@ msysgit_x86:
     install_flags: '/VERYSILENT /NOREBOOT'
     uninstaller: '%ProgramFiles%\Git\unins000.exe'
     uninstall_flags: '/VERYSILENT /NOREBOOT'
+    msiexec: False
     locale: en_US
     reboot: False

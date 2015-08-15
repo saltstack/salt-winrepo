@@ -1,12 +1,13 @@
 mysql-installer-community:
   1.4.3.0:
-    installer: 'http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-community-5.6.23.0.msi'
     full_name: 'MySQL Installer - Community'
-    reboot: False
-    install_flags: '/quiet /norestart'
+    installer: 'http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-community-5.6.23.0.msi'
+    install_flags: '/quiet ALLUSERS=1 /norestart'
+    uninstaller: 'http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-community-5.6.23.0.msi'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: '{1BF2A017-1067-43B9-873F-9F718CBD97BC}'
-    uninstall_flags: '/qn'
+    locale: en_US
+    reboot: False
 #
 # Read for MySQL Server 5.6.23.0 Community installation instructions:
 # https://dev.mysql.com/doc/refman/5.6/en/mysql-installer-gui.html

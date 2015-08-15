@@ -5,6 +5,7 @@ putty_x86:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES%\PuTTY\unins000.exe'
     uninstall_flags: '/SP- /silent /verysilent /suppressmsgboxes /norestart /UNINSTMODE'
+    msiexec: False
     locale: en_US
     reboot: False
   0.64:
@@ -13,5 +14,6 @@ putty_x86:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES%\PuTTY\unins000.exe'
     uninstall_flags: '/SP- /silent /verysilent /suppressmsgboxes /norestart /UNINSTMODE'
+    msiexec: False
     locale: en_US
     reboot: False

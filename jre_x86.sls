@@ -5,6 +5,7 @@ jre_x86:
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F03217079FF} /norestart'
+    msiexec: False
     locale: en_US
     reboot: False
     # due to winrepo installer limitations you need to manually download the exe from
@@ -14,5 +15,6 @@ jre_x86:
     full_name: 'Java 7 Update 51'
     installer: 'salt://win/repo/jre/jre-7u51-windows-i586.exe'
     install_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
