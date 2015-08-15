@@ -11,6 +11,7 @@ gpg4win-light:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\GNU\GnuPG\gpg4win-uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
 #

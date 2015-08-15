@@ -14,5 +14,6 @@ windirstat:
                    exit 0'
     uninstaller: '{{ PROGRAM_FILES }}\WinDirStat\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

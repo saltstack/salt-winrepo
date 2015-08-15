@@ -10,6 +10,7 @@ audacity:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '{{ PROGRAM_FILES }}\Audacity\unins000.exe'
     uninstall_flags: '/SP- /verysilent /norestart' 
+    msiexec: False
     locale: en_US
     reboot: False
   2.0.6:
@@ -18,6 +19,7 @@ audacity:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '{{ PROGRAM_FILES }}\Audacity\unins000.exe'
     uninstall_flags: '/SP- /verysilent /norestart' 
+    msiexec: False
     locale: en_US
     reboot: False
   2.0.3: 
@@ -26,5 +28,6 @@ audacity:
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '{{ PROGRAM_FILES }}\Audacity\unins000.exe'
     uninstall_flags: '/SP- /verysilent /norestart'
+    msiexec: False
     locale: en_US
     reboot: False

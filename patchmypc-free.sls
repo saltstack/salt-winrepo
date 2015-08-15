@@ -12,5 +12,6 @@ patchmypc-free:
                      '/c taskkill /F /IM PatchMyPC.exe &
                      del /q /f "%SystemRoot%"\PatchMyPC.exe &
                      exit 0'
+    msiexec: False
     locale: en_US
     reboot: False

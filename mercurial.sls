@@ -1,6 +1,5 @@
 mercurial:
   3.1.1:
-    msiexec: True
     {% if grains['cpuarch'] == 'AMD64' %}
     full_name: 'Mercurial 3.1.1 (x64)'
     installer: 'http://mercurial.selenic.com/release/windows/mercurial-3.1.1-x64.msi'
@@ -12,5 +11,6 @@ mercurial:
     {% endif %}
     install_flags: '/qn /norestart'
     uninstall_flags: '/qn /norestart'
+    msiexec: True
     locale: en_US
     reboot: False

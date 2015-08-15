@@ -21,5 +21,6 @@ jre8:
     {% endif %}
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
     uninstaller: 'msiexec.exe'
+    msiexec: False
     locale: en_US
     reboot: False    

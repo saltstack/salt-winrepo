@@ -11,5 +11,6 @@ ccleaner:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\CCleaner\uninst.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

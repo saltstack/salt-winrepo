@@ -11,6 +11,7 @@ gnucash:
     install_flags: '/SILENT'
     uninstaller: '{{ PROGRAM_FILES }}\gnucash\uninstall\gnucash\unins000.exe'
     uninstall_flags: '/SILENT'
+    msiexec: False
     locale: en_US
     reboot: False
     

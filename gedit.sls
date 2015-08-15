@@ -11,5 +11,6 @@ gedit:
     install_flags: '/sp- /verysilent /norestart'
     uninstaller: '{{ PROGRAM_FILES }}\gedit\unins000.exe'
     uninstall_flags: '/verysilent /norestart'
+    msiexec: False
     locale: en_US
     reboot: False

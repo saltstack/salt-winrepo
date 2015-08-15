@@ -12,6 +12,7 @@ gpu-z:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\GPU-Z\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False    
 # alternate DL URLs
@@ -25,6 +26,7 @@ gpu-z:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\GPU-Z\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
 # alternate DL URLs
@@ -38,6 +40,7 @@ gpu-z:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\GPU-Z\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
 # alternate DL URLs
@@ -51,6 +54,7 @@ gpu-z:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\GPU-Z\uninstall.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
 # alternate DL URLs

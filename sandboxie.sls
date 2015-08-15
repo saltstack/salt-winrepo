@@ -11,5 +11,6 @@ sandboxie:
     {% endif %}
     install_flags: '/S'
     uninstall_flags: '/remove'
+    msiexec: False
     locale: en_US
     reboot: False

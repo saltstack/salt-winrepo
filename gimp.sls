@@ -11,5 +11,6 @@ gimp:
     install_flags: '/SP- /SILENT /NORESTART'
     uninstaller: '{{ PROGRAM_FILES }}\Gimp 2\uninst\unins000.exe'
     uninstall_flags: '/SP- /SILENT /NORESTART'
+    msiexec: False
     locale: en_US
     restart: False

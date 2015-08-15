@@ -11,5 +11,6 @@ glarysoft-absolute-uninstaller:
     install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\Glarysoft\Absolute Uninstaller 5\uninst.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False

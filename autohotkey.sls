@@ -10,6 +10,7 @@ autohotkey:
     install_flags: '/S /U32 /D="{{ PROGRAM_FILES }}\AutoHotkey"'
     uninstaller: '{{ PROGRAM_FILES }}\AutoHotKey\AutoHotKey.exe'
     uninstall_flags: '"{{ PROGRAM_FILES }}\AutoHotkey\Installer.ahk" /Uninstall'
+    msiexec: False
     locale: en_US
     reboot: False
   1.1.22.01:
@@ -18,6 +19,7 @@ autohotkey:
     install_flags: '/S /U32 /D="%ProgramFiles%\AutoHotkey"'
     uninstaller: '{{ PROGRAM_FILES }}\AutoHotKey\AutoHotKey.exe'
     uninstall_flags: '"{{ PROGRAM_FILES }}\AutoHotkey\Installer.ahk" /Uninstall'
+    msiexec: False
     locale: en_US
     reboot: False
   1.1.19.03:
@@ -26,6 +28,6 @@ autohotkey:
     install_flags: '/S /U32 /D="%ProgramFiles%\AutoHotkey"'
     uninstaller: '{{ PROGRAM_FILES }}\AutoHotKey\AutoHotKey.exe'
     uninstall_flags: '"{{ PROGRAM_FILES }}\AutoHotkey\Installer.ahk" /Uninstall'
+    msiexec: False
     locale: en_US
     reboot: False
-    

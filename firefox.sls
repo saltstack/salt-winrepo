@@ -11,6 +11,7 @@ firefox:
     install_flags: '/s'
     uninstaller: '{{ PROGRAM_FILES }}\Mozilla Firefox\uninstall\helper.exe'
     uninstall_flags: '/S'
+    msiexec: False
     locale: en_US
     reboot: False
   {% endfor %}

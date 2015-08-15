@@ -17,6 +17,8 @@ chocolatey:
                      del /F /S /Q c:\chocolatey\*.* > NUL &
                      reg DEL HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f &
                      exit 0'
+    msiexec: False
+    locale: en_US
     reboot: False
 #
 # this software also has it's own salt execution module, which you might prefer to use, see

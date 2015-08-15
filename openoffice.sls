@@ -5,6 +5,7 @@ openoffice:
     install_flags: '/S'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {9395F41D-0F80-432E-9A59-B8E477E7E163} /norestart'
+    msiexec: False
     locale: en_US
     reboot: False    
 #

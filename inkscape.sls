@@ -1,7 +1,6 @@
 inkscape:
   0.91:
     full_name: 'Inkscape 0.91'
-    msiexec: True
     {% if grains['cpuarch'] == 'AMD64' %}
     installer: 'https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.91-x64.msi'
     uninstaller: 'https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.91-x64.msi'
@@ -11,5 +10,6 @@ inkscape:
     {% endif %}
     install_flags: '/qn /norestart'
     uninstall_flags: '/qn /norestart'
+    msiexec: True
     locale: en_US
     reboot: False    

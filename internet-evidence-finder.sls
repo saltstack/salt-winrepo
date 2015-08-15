@@ -5,5 +5,6 @@ internet-evidence-finder:
     install_flags: '/sp- /verysilent /norestart'
     uninstaller: 'salt://win/repo/ief/IEFv623.0001setup.exe'
     uninstall_flags: '/verysilent /norestart'
+    msiexec: False
     locale: en_US
     reboot: False

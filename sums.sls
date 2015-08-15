@@ -1,5 +1,6 @@
 sums:
   6.11:
+    full_name: 'GNU coreutils sums (md5 sha1 sha224 sha256 sha384 sha512) ver. 6.11'
     installer: |
                '@powershell -NoProfile -ExecutionPolicy unrestricted -Command "$shell = new-object -com shell.application
                $shell = new-object -com shell.application
@@ -9,8 +10,6 @@ sums:
                $shell2 = new-object -com shell.application
                $zip = $shell.NameSpace('c:\tmp\sums611.zip')
                foreach($item in $zip.items()) { $shell.Namespace('c:\windows').copyhere($item,0x14) }'
-    full_name: 'GNU coreutils sums (md5 sha1 sha224 sha256 sha384 sha512) ver. 6.11'
-    reboot: False
     install_flags: ''
     uninstaller: 'cmd'
     uninstall_flags: |
@@ -23,3 +22,6 @@ sums:
                       del /q /f %SystemRoot%\sha384sum.exe & 
                       del /q /f %SystemRoot%\sha512sum.exe & 
                       exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False

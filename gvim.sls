@@ -6,9 +6,11 @@
 {% endif %}
 gvim:
   7.3:
-    installer: 'https://github.com/downloads/gpwen/vim-installer-mui2/gvim73_46-int-v0.9.exe'
     full_name:  'Vim 7.3 (self-installing)'
-    reboot: False
+    installer: 'https://github.com/downloads/gpwen/vim-installer-mui2/gvim73_46-int-v0.9.exe'
     install_flags: '/TYPE=FULL /S /DD'
     uninstaller: '{{ PROGRAM_FILES }}\Vim\vim73\uninstall-gui.exe'
     uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False

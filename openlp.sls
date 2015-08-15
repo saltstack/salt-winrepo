@@ -12,5 +12,6 @@ openlp:
     install_flags: '/SP- /VERYSILENT /NORESTART'
     uninstaller: '{{ PROGRAM_FILES }}\OpenLP\unins000.exe'
     uninstall_flags: '/SP- /VERYSILENT /NORESTART'
+    msiexec: False
     locale: en_US
     reboot: False

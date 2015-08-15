@@ -1,8 +1,3 @@
-{% if grains['cpuarch'] == 'AMD64' %}
-    {% set PROGRAM_FILES = "%ProgramFiles(x86)%" %}
-{% else %}
-    {% set PROGRAM_FILES = "%ProgramFiles%" %}
-{% endif %}
 adobereader:
   10.1.4:
     full_name: 'Adobe Reader 10.1.4'
@@ -10,6 +5,7 @@ adobereader:
     install_flags: '/msi EULA_ACCEPT=YES REMOVE_PREVIOUS=YES ALLUSERS=1 /qn /norestart'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {AC76BA86-7AD7-1033-7B44-AA1000000001} /norestart'
+    msiexec: False
     locale: en_US
     reboot: False
   9.5.0:
@@ -18,5 +14,6 @@ adobereader:
     install_flags: '/msi EULA_ACCEPT=YES REMOVE_PREVIOUS=YES ALLUSERS=1 /qn /norestart'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {AC76BA86-7AD7-1033-7B44-A95000000001} /norestart'
+    msiexec: False
     locale: en_US
     reboot: False
