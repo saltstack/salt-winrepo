@@ -2,6 +2,7 @@ irfanview:
   4.40:
     full_name: 'IrfanView 64 (remove only)'
     installer: 'salt://win/repo/irfanview/iview440_x64_setup.exe'
+    # download manually from: http://www.irfanview.info/files/iview440_x64_setup.exe and place on master
     install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
     uninstaller: '%PROGRAMFILES%\irfanview\iv_uninstall.exe'
     uninstall_flags: '/silent'
@@ -11,6 +12,7 @@ irfanview:
   4.38:
     full_name: 'IrfanView (remove only)'
     installer: 'salt://win/repo/irfanview/iview438_setup.exe'
+    # download manually from: http://www.irfanview.info/files/iview438_setup.exe and place on master
     install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
     uninstaller: '%PROGRAMFILES(x86)%\irfanview\iv_uninstall.exe'
     uninstall_flags: '/silent'
