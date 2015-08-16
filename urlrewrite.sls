@@ -10,8 +10,8 @@ urlrewrite:
     installer: 'http://download.microsoft.com/download/5/4/9/54980B19-9C64-4E8E-A69C-615A88DFF8B7/rewrite_x86.msi'   
     uninstaller: 'http://download.microsoft.com/download/5/4/9/54980B19-9C64-4E8E-A69C-615A88DFF8B7/rewrite_x86.msi'
     {% endif %}
-    install_flags: '/quiet /norestart'
-    uninstall_flags: '/quiet /norestart'
+    install_flags: '/qn /norestart'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
     locale: en_US
     reboot: False
