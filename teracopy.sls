@@ -1,5 +1,5 @@
 teracopy:
-  2.3:
+  Not Found:
     full_name: 'TeraCopy 2.3'
     installer: 'http://storage.googleapis.com/codesector/teracopy.exe'
     install_flags: |

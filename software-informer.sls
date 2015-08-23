@@ -1,6 +1,6 @@
 # Source: http://software.informer.com/
 software-informer:
-  1.4.1250.0:
+  Not Found:
     full_name: 'Software Informer'
     installer: 'http://files.informer.com/siinst.exe'
     install_flags: '/SP- /VERYSILENT /NORESTART /SUPPRESSMSGBOXES'
