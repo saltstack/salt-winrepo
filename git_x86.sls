@@ -1,4 +1,4 @@
-git-for-windows_x86:
+git_x86:
   2.5.0:
     full_name: 'Git version 2.5.0'
     installer: 'https://github.com/git-for-windows/git/releases/download/v2.5.0.windows.1/Git-2.5.0-32-bit.exe'
