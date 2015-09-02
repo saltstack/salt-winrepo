@@ -1,7 +1,7 @@
 slack:
   latest:
     full_name: Slack
-    installer: 'https://slack.com/ssb/download-win'
+    installer: 'salt://win/repo/slack/SlackSetup.exe'
     install_flags: '-s'
     uninstaller: '%LocalAppData%/slack/Update.exe'
     uninstall_flags: '--uninstall -s' 
