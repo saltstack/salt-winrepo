@@ -1,18 +1,19 @@
 libreoffice:
-  4.4.0.3:
-    installer: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/4.4.0/win/x86/LibreOffice_4.4.0_Win_x86.msi'
-    full_name: 'LibreOffice 4.4.0.3'
-    reboot: False
-    install_flags: '/qn'
+  5.0.1.2:
+    full_name: 'LibreOffice 5.0.1'
+    installer: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/5.0.1/win/x86/LibreOffice_5.0.1_Win_x86.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/5.0.1/win/x86/LibreOffice_5.0.1_Win_x86.msi'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: '{8BEE1CDD-F95D-4759-952D-6B38DF99D1F0}'
-    uninstall_flags: '/qn'
-
-  4.2.1:
-    installer: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/4.2.1/win/x86/LibreOffice_4.2.1_Win_x86.msi'
-    full_name: 'Libre Office 4'
+    locale: en_US
     reboot: False
-    install_flags: '/qn'
+  4.4.5:
+    full_name: 'LibreOffice 4.4.5'
+    installer: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/4.4.5/win/x86/LibreOffice_4.4.5_Win_x86.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/4.4.5/win/x86/LibreOffice_4.4.5_Win_x86.msi'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/4.2.1/win/x86/LibreOffice_4.2.1_Win_x86.msi'
-    uninstall_flags: '/qn'
+    locale: en_US
+    reboot: False

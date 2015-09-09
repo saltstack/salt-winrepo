@@ -1,10 +1,10 @@
 infrarecorder:
   0.53:
-    installer: 'http://downloads.sourceforge.net/project/infrarecorder/InfraRecorder/0.53/ir053_x64.msi?r=http%3A%2F%2Finfrarecorder.org%2F%3Fpage_id%3D5&ts=1389874235&use_mirror=skylink'
     full_name: 'InfraRecorder'
-    reboot: False
-    locale: en_US
+    installer: 'http://heanet.dl.sourceforge.net/project/infrarecorder/InfraRecorder/0.53/ir053_x64.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'http://heanet.dl.sourceforge.net/project/infrarecorder/InfraRecorder/0.53/ir053_x64.msi'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
-    install_flags: '/qn'
-    uninstaller: 'http://downloads.sourceforge.net/project/infrarecorder/InfraRecorder/0.53/ir053_x64.msi?r=http%3A%2F%2Finfrarecorder.org%2F%3Fpage_id%3D5&ts=1389874235&use_mirror=skylink' 
-    uninstall_flags: '/qn'
+    locale: en_US
+    reboot: False

@@ -1,12 +1,13 @@
 curl_x86:
   7.43.0:
-    installer: 'salt://win/repo/curl/curl-7.43.0-win32.msi'
     full_name: 'cURL'
-    reboot: False
+    installer: 'salt://win/repo/curl/curl-7.43.0-win32.msi'
     install_flags: '/qn /norestart'
+    uninstaller: 'salt://win/repo/curl/curl-7.43.0-win32.msi'
+    uninstall_flags: '/qn /norestart'
     msiexec: True
-    uninstaller: '{69FC7423-4FC6-4767-946F-D346A297A8E6}'
-    uninstall_flags: '/qn'
+    locale: en_US
+    reboot: False
 #    
 # You need to download the win32 msi from website (Captcha protected) and place in your winrepo on your master
 # http://www.confusedbycode.com/curl/#downloads

@@ -1,9 +1,10 @@
 defraggler:
   2.18.945:
-    installer: 'http://download.piriform.com/dfsetup218.exe'
     full_name: 'Defraggler 2.18'
-    reboot: False
+    installer: 'http://download.piriform.com/dfsetup218.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles%\Defraggler\uninst.exe'
+    uninstaller: '%ProgramFiles(x86)%\Defraggler\uninst.exe'
     uninstall_flags: '/S'
- 
+    msiexec: False
+    locale: en_US
+    reboot: False

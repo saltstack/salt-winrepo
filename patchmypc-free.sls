@@ -1,9 +1,8 @@
 # Source: https://patchmypc.net/
 patchmypc-free:
   3.0.1.1:
-    installer: 'http://patchmypc.net/freeupdater/PatchMyPC.exe'
     full_name: 'PatchMyPC'
-    reboot: False
+    installer: 'http://patchmypc.net/freeupdater/PatchMyPC.exe'
     install_flags: |
                    ' & cmd /c taskkill /F /IM PatchMyPC.exe &
                    xcopy /q /c /r /y "c:\salt\var\cache\salt\minion\extrn_files\base\patchmypc.net\freeupdater\PatchMyPC.exe" "%SystemRoot%" &
@@ -13,3 +12,6 @@ patchmypc-free:
                      '/c taskkill /F /IM PatchMyPC.exe &
                      del /q /f "%SystemRoot%"\PatchMyPC.exe &
                      exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False

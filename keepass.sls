@@ -1,9 +1,10 @@
 keepass:
   1.29.0:
-    installer: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%201.x/1.29/KeePass-1.29.msi'
     full_name: 'KeePass 1.29'
-    reboot: False
+    installer: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%201.x/1.29/KeePass-1.29.msi'
     install_flags: '/qn /norestart'
-    msiexec: True
-    uninstaller: '{94FAFD24-450A-4BBC-BC38-2A793DC887B1}'
-    uninstall_flags: '/qn'
+    uninstaller: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%201.x/1.29/KeePass-1.29.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True    
+    locale: en_US
+    reboot: False

@@ -5,5 +5,6 @@ sandboxie:
     install_flags: '/S'
     uninstaller: 'C:\Windows\Installer\SandboxieInstall64.exe'
     uninstall_flags: '/remove'
+    msiexec: False
     locale: en_US
     reboot: False

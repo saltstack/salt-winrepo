@@ -1,12 +1,24 @@
 irfanview_x86:
-  4.38:
+  4.40:
     full_name: 'IrfanView (remove only)'
-    installer: 'http://www.tucows.com/download/windows/files/iview438_setup.exe'
-    reboot: False
-    locale: en_US
+    installer: 'salt://win/repo/irfanview/iview440_setup.exe'
+    # download manually from: http://www.irfanview.info/files/iview440_setup.exe and place on master
     install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
     uninstaller: '%PROGRAMFILES%\irfanview\iv_uninstall.exe'
     uninstall_flags: '/silent'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  4.38:
+    full_name: 'IrfanView (remove only)'
+    installer: 'salt://win/repo/irfanview/iview438_setup.exe'
+    # download manually from: http://www.irfanview.info/files/iview438_setup.exe and place on master
+    install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
+    uninstaller: '%PROGRAMFILES%\irfanview\iv_uninstall.exe'
+    uninstall_flags: '/silent'
+    msiexec: False
+    locale: en_US
+    reboot: False
 # install_flags
 # folder:     destination folder; if not indicated: old IrfanView folder is used, if not found, the "Program Files" folder is used
 # silent:   silent install - no prompts

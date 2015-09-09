@@ -2,10 +2,11 @@
 chromedl:
   # Source https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
   latest:
-    installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     full_name: 'Google Chrome'
-    reboot: False
+    installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     install_flags: '/qn /norestart'
-    msiexec: True
     uninstaller: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
