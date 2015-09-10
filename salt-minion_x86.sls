@@ -1,4 +1,14 @@
 salt-minion_x86:
+  2015.8.0:
+    full_name: 'Salt Minion 2015.8.0'
+    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0-x86-Setup.exe'
+    install_flags: '/S'
+    uninstaller: 'C:\salt\uninst.exe'
+    uninstall_flags: '/S'
+    refresh: true
+    msiexec: False
+    locale: en_US
+    reboot: False
   2015.8.0rc4:
     full_name: 'Salt Minion 2015.8.0rc4'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0rc4-x86-Setup.exe'
