@@ -1,7 +1,7 @@
 pdf24creator:
   7.2.0:
     full_name: 'PDF24 Creator'
-    installer: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.2.0.msi'
+    installer: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.2.0.msi'
     install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
     uninstaller: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.2.0.msi'
     uninstall_flags: '/qn /norestart'
@@ -10,7 +10,7 @@ pdf24creator:
     reboot: False
   7.1.0:
     full_name: 'PDF24 Creator'
-    installer: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.1.0.msi'
+    installer: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.1.0.msi'
     install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
     uninstaller: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.1.0.msi'
     uninstall_flags: '/qn /norestart'
@@ -19,7 +19,7 @@ pdf24creator:
     reboot: False
   7.0.7:
     full_name: 'PDF24 Creator'
-    installer: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.7.msi'
+    installer: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.7.msi'
     install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
     uninstaller: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.7.msi'
     uninstall_flags: '/qn /norestart'
@@ -28,7 +28,7 @@ pdf24creator:
     reboot: False
   7.0.6:
     full_name: 'PDF24 Creator'
-    installer: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.6.msi'
+    installer: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.6.msi'
     install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
     uninstaller: 'https://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.0.6.msi'
     uninstall_flags: '/qn /norestart'
