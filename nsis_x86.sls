@@ -1,5 +1,5 @@
 nsis_x86: 
-  3.0b1:
+  3.0b2:
     full_name: 'Nullsoft Install System'
     installer: 'http://netcologne.dl.sourceforge.net/project/nsis/NSIS%203%20Pre-release/3.0b2/nsis-3.0b2-setup.exe'
     install_flags: '/S'
