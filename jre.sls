@@ -11,10 +11,3 @@ jre:
     # due to winrepo installer limitations you need to manually download the exe from
     # http://javadl.sun.com/webapps/download/AutoDL?BundleId=106369
     # and put it on the winrepo on master to install it the 'salt://win/repo/jre/... way
-  7.51.13:
-    full_name: 'Java Runtime Enviorment x86_64 (7u51-b13)'
-    installer: 'http://download.oracle.com/otn-pub/java/jdk/7u51-b13/jre-7u51-windows-x64.exe'
-    install_flags: '/s'
-    msiexec: False
-    locale: en_US
-    reboot: False
