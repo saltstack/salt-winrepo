@@ -11,10 +11,3 @@ jre_x86:
     # due to winrepo installer limitations you need to manually download the exe from
     # http://javadl.sun.com/webapps/download/AutoDL?BundleId=106367
     # and put it on the winrepo on master to install it the 'salt://win/repo/jre_x86/... way    
-  7.0.510:
-    full_name: 'Java 7 Update 51'
-    installer: 'salt://win/repo/jre/jre-7u51-windows-i586.exe'
-    install_flags: '/S'
-    msiexec: False
-    locale: en_US
-    reboot: False
