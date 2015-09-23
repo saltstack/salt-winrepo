@@ -8,7 +8,7 @@ adobeflashplayeractivex:
     msiexec: True
     locale: en_US
     reboot: False
-  18.0.0.232:
+  18.0.0.241:
     full_name: 'Adobe Flash Player 18 ActiveX'
     installer: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_active_x.msi'
     install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
