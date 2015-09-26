@@ -1,7 +1,7 @@
 ccleaner_x86:
   5.10:
-    full_name: 'CCleaner 5.10'
-    installer: 'http://download.piriform.com/ccsetup509.exe'
+    full_name: 'CCleaner'
+    installer: 'http://download.piriform.com/ccsetup510.exe'
     install_flags: '/S'
     uninstaller: '%ProgramFiles%\CCleaner\uninst.exe'
     uninstall_flags: '/S'
