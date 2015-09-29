@@ -8,7 +8,7 @@ adobeair:
     msiexec: False
     locale: en_US
     reboot: False
-  18.0.0.199:
+  '18.0.0.199':
     full_name: 'Adobe AIR'
     installer: 'http://airdownload.adobe.com/air/win/download/18.0/AdobeAIRInstaller.exe'
     install_flags: '-silent -eulaAccepted'

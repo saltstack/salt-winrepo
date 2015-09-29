@@ -1,5 +1,5 @@
 chocolatey:
-  0.9.8:
+  '0.9.8':
     full_name: 'Chocolatey v0.9.8'
     installer: 'https://chocolatey.org/installChocolatey.cmd'
     install_flags: | 

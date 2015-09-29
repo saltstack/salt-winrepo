@@ -1,5 +1,5 @@
 ms-vcpp-2005-redist_x86:
-  8.0.56336:
+  '8.0.56336':
     full_name: 'Microsoft Visual C++ 2005 Redistributable'
     installer: 'http://download.microsoft.com/download/e/1/c/e1c773de-73ba-494a-a5ba-f24906ecf088/vcredist_x86.exe'
     install_flags: '/q'

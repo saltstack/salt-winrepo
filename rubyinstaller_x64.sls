@@ -1,5 +1,5 @@
 rubyinstaller_x64:
-  2.2.3-p173:
+  '2.2.3-p173':
     full_name: 'Ruby 2.2.3-p173-x64'
     installer: 'http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.3-x64.exe'
     install_flags: '/verysilent'
@@ -8,7 +8,7 @@ rubyinstaller_x64:
     msiexec: False
     locale: en_US
     reboot: False
-  2.1.7-p400:
+  '2.1.7-p400':
     full_name: 'Ruby 2.1.7-p400-x64'
     installer: 'http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.7-x64.exe'
     install_flags: '/verysilent'
@@ -17,7 +17,7 @@ rubyinstaller_x64:
     msiexec: False
     locale: en_US
     reboot: False
-  2.0.0-p647:
+  '2.0.0-p647':
     full_name: 'Ruby 2.0.0-p647-x64'
     installer: 'http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p647-x64.exe'
     install_flags: '/verysilent'

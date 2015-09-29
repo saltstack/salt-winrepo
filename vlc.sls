@@ -1,5 +1,5 @@
 vlc:
-  2.2.1:
+  '2.2.1':
     full_name: 'VLC media player'
     installer: 'http://get.videolan.org/vlc/2.2.1/win64/vlc-2.2.1-win64.exe'
     install_flags: '/S'

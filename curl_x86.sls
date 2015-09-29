@@ -1,5 +1,5 @@
 curl_x86:
-  7.43.0:
+  '7.43.0':
     full_name: 'cURL'
     installer: 'salt://win/repo/curl/curl-7.43.0-win32.msi'
     install_flags: '/qn /norestart'

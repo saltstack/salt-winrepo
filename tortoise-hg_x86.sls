@@ -1,6 +1,6 @@
 # Source: http://tortoisehg.bitbucket.org/
 tortoise-hg_x86:
-  3.3.0:
+  '3.3.0':
     full_name: 'TortoiseHg 3.3.0 (x86)'
     installer: 'salt://win/repo/tortoise-hg/tortoisehg-3.3.0-x86.msi'
     install_flags: '/qn /norestart'

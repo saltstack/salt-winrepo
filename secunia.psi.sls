@@ -1,5 +1,5 @@
 secunia.psi:
-  3.0.0.10004:
+  '3.0.0.10004':
     full_name: 'Secunia PSI'
     installer: 'http://secunia.com/PSISetup.exe'
     install_flags: '/S'

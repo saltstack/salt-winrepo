@@ -8,7 +8,7 @@ adobeflashplayerplugin:
     msiexec: True
     locale: en_US
     reboot: False
-  18.0.0.241:
+  '18.0.0.241':
     full_name: 'Adobe Flash Player 18 NPAPI'
     installer: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_18_plugin.msi'
     install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
@@ -17,7 +17,7 @@ adobeflashplayerplugin:
     msiexec: True
     locale: en_US
     reboot: False
-  16.0.0.296:
+  '16.0.0.296':
     full_name: 'Adobe Flash Player 16 NPAPI'
     installer: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_plugin.msi'
     install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'

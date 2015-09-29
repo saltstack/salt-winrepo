@@ -9,7 +9,7 @@ chrome:
     msiexec: True
     locale: en_US
     reboot: False
-  66.88.49277:
+  '66.88.49277':
     full_name: 'Google Chrome'
     installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     install_flags: '/qn /norestart'
@@ -18,7 +18,7 @@ chrome:
     msiexec: True
     locale: en_US
     reboot: False
-  66.88.49259:
+  '66.88.49259':
     full_name: 'Google Chrome'
     installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     install_flags: '/qn /norestart'
@@ -27,7 +27,7 @@ chrome:
     msiexec: True
     locale: en_US
     reboot: False
-  66.77.16518:
+  '66.77.16518':
     full_name: 'Google Chrome'
     installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     install_flags: '/qn /norestart'
@@ -36,7 +36,7 @@ chrome:
     msiexec: True
     locale: en_US
     reboot: False
-  66.77.16516:
+  '66.77.16516':
     full_name: 'Google Chrome'
     installer: 'https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi'
     install_flags: '/qn /norestart'

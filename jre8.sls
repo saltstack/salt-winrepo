@@ -1,5 +1,5 @@
 jre8:
-  8.0.600.27:
+  '8.0.600.27':
     full_name: 'Java 8 Update 60 (64-bit)'
     installer: 'salt://win/repo/jre8/jre-8u60-windows-x64.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
@@ -13,7 +13,7 @@ jre8:
     # and put it on the winrepo on master to install it the 'salt://win/repo/jre8/... way
     # to find manual download links for any version use:
     # http://www.java.com/en/download/manual.jsp
-  8.0.510:
+  '8.0.510':
     full_name: 'Java 8 Update 51 (64-bit)'
     installer: 'salt://win/repo/jre8/jre-8u51-windows-x64.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
@@ -27,7 +27,7 @@ jre8:
     # and put it on the winrepo on master to install it the 'salt://win/repo/jre8/... way
     # to find manual download links for any version use:
     # http://www.java.com/en/download/manual.jsp
-  8.0.450:
+  '8.0.450':
     full_name: 'Java 8 Update 45 (64-bit)'
     installer: 'salt://win/repo/jre8/jre-8u45-windows-x64.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'

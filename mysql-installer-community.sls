@@ -1,5 +1,5 @@
 mysql-installer-community:
-  1.4.3.0:
+  '1.4.3.0':
     full_name: 'MySQL Installer - Community'
     installer: 'http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-community-5.6.23.0.msi'
     install_flags: '/quiet ALLUSERS=1 /norestart'
