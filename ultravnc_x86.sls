@@ -1,5 +1,5 @@
 ultravnc_x86:
-  1.2.05:
+  '1.2.05':
     full_name: 'UltraVnc'
     installer: 'http://www.uvnc.eu/download/1205/UltraVNC_1_2_05_X86_Setup.exe'
     install_flags: '/VERYSILENT /NORESTART'
@@ -8,7 +8,7 @@ ultravnc_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  1.1.9.6:
+  '1.1.9.6':
     full_name: 'UltraVnc'
     installer: 'http://www.uvnc.eu/1196/UltraVNC_1_1_9_X86_Setup.exe'
     install_flags: '/verysilent /norestart'

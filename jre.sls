@@ -1,5 +1,5 @@
 jre:
-  7.0.790:
+  '7.0.790':
     full_name: 'Java 7 Update 79 (64-bit)'
     installer: 'salt://win/repo/jre/jre-7u79-windows-x64.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'

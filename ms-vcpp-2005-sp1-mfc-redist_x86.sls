@@ -1,5 +1,5 @@
 ms-vcpp-2005-sp1-mfc-redist_x86:
-  8.0.61001:
+  '8.0.61001':
     full_name: 'Microsoft Visual C++ 2005 Redistributable'
     installer: 'http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE'
     install_flags: '/q'

@@ -1,5 +1,5 @@
 jre_x86:
-  7.0.790:
+  '7.0.790':
     full_name: 'Java 7 Update 79'
     installer: 'salt://win/repo/jre_x86/jre-7u79-windows-i586.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'

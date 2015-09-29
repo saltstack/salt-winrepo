@@ -1,5 +1,5 @@
 salt-minion_x86:
-  2015.8.0-3:
+  '2015.8.0-3':
     full_name: 'Salt Minion 2015.8.0-3'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0-3-x86-Setup.exe'
     install_flags: '/S'
@@ -9,7 +9,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2015.8.0rc4:
+  '2015.8.0rc4':
     full_name: 'Salt Minion 2015.8.0rc4'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0rc4-x86-Setup.exe'
     install_flags: '/S'
@@ -19,7 +19,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2015.8.0rc3:
+  '2015.8.0rc3':
     full_name: 'Salt Minion 2015.8.0rc3'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0rc3-x86-Setup.exe'
     install_flags: '/S'
@@ -29,7 +29,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2015.8.0rc2:
+  '2015.8.0rc2':
     full_name: 'Salt Minion 2015.8.0rc2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0rc2-x86-Setup.exe'
     install_flags: '/S'
@@ -39,7 +39,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2015.5.5:
+  '2015.5.5':
     full_name: 'Salt Minion 2015.5.5'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.5-x86-Setup.exe'
     install_flags: '/S'
@@ -49,7 +49,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False    
-  2015.5.3-2:
+  '2015.5.3-2':
     full_name: 'Salt Minion 2015.5.3-2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.3-2-x86-Setup.exe'
     install_flags: '/S'
@@ -59,7 +59,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2015.5.2:
+  '2015.5.2':
     full_name: 'Salt Minion 2015.5.2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.2-x86-Setup.exe'
     install_flags: '/S'
@@ -69,7 +69,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2015.5.1-3:
+  '2015.5.1-3':
     full_name: 'Salt Minion 2015.5.1-3'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.1-3-x86-Setup.exe'
     install_flags: '/S'
@@ -79,7 +79,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2015.5.0-2:
+  '2015.5.0-2':
     full_name: 'Salt Minion 2015.5.0-2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.0-2-x86-Setup.exe'
     install_flags: '/S'
@@ -89,7 +89,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.7.5-2:
+  '2014.7.5-2':
     full_name: 'Salt Minion 2014.7.5-2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.5-2-x86-Setup.exe'
     install_flags: '/S'
@@ -99,7 +99,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.7.4:
+  '2014.7.4':
     full_name: 'Salt Minion 2014.7.4'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.4-x86-Setup.exe'
     install_flags: '/S'
@@ -109,7 +109,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.7.2:
+  '2014.7.2':
     full_name: 'Salt Minion 2014.7.2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.2-x86-Setup.exe'
     install_flags: '/S'
@@ -119,7 +119,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.7.1:
+  '2014.7.1':
     full_name: 'Salt Minion 2014.7.1'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.1-x86-Setup.exe'
     install_flags: '/S'
@@ -129,7 +129,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.13:
+  '2014.1.13':
     full_name: 'Salt Minion 2014.1.13'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.13-x86-Setup.exe'
     install_flags: '/S'
@@ -139,7 +139,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.11:
+  '2014.1.11':
     full_name: 'Salt Minion 2014.1.11'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.11-win32-Setup.exe'
     install_flags: '/S'
@@ -149,7 +149,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.10:
+  '2014.1.10':
     full_name: 'Salt Minion 2014.1.10'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.10-win32-Setup.exe'
     install_flags: '/S'
@@ -159,7 +159,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.7:
+  '2014.1.7':
     full_name: 'Salt Minion 2014.1.7'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.7-win32-Setup.exe'
     install_flags: '/S'
@@ -169,7 +169,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.5:
+  '2014.1.5':
     full_name: 'Salt Minion 2014.1.5'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.5-win32-Setup.exe'
     install_flags: '/S'
@@ -179,7 +179,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.4:
+  '2014.1.4':
     full_name: 'Salt Minion 2014.1.4'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.4-win32-Setup.exe'
     install_flags: '/S'
@@ -189,7 +189,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.3-1:
+  '2014.1.3-1':
     full_name: 'Salt Minion 2014.1.3-1'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.3-1-win32-Setup.exe'
     install_flags: '/S'
@@ -199,7 +199,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.3:
+  '2014.1.3':
     full_name: 'Salt Minion 2014.1.3'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.3-win32-Setup.exe'
     install_flags: '/S'
@@ -209,7 +209,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.1:
+  '2014.1.1':
     full_name: 'Salt Minion 2014.1.1'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.1-win32-Setup.exe'
     install_flags: '/S'
@@ -219,7 +219,7 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  2014.1.0:
+  '2014.1.0':
     full_name: 'Salt Minion 2014.1.0'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.0-win32-Setup.exe'
     install_flags: '/S'

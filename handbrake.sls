@@ -1,6 +1,6 @@
 # Source: https://handbrake.fr
 handbrake:
-  0.10.0:
+  '0.10.0':
     full_name: 'Handbrake 0.10.0'
     installer: 'http://heanet.dl.sourceforge.net/project/handbrake/0.10.0/HandBrake-0.10.0-x86_64-Win_GUI.exe'
     install_flags: '/S'
