@@ -1,5 +1,5 @@
 mikogo:
-  5.3.0:
+  '5.3.0':
     full_name: 'Mikogo'
     installer: 'http://download.mikogo4.com/mikogo-starter.exe'
     install_flags: '/S & taskkill /F /T /IM Mikogo-Screen-Service.exe & exit 0'

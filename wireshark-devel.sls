@@ -1,5 +1,5 @@
 wireshark-devel:
-  1.99.8:
+  '1.99.8':
     full_name: 'Wireshark 1.99.8 (64-bit)'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win64/Wireshark-win64-1.99.8.exe'
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'

@@ -1,6 +1,6 @@
 # Source: http://www.cpuid.com/softwares/cpu-z.html
 cpu-z:
-  1.73.0:
+  '1.73.0':
     full_name: 'CPUID CPU-Z 1.73'
     installer: 'http://download.cpuid.com/cpu-z/cpu-z_1.73-en.exe'
     install_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'

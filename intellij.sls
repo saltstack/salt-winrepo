@@ -1,5 +1,5 @@
 intellij-community:
-  14.1.4:
+  '14.1.4':
     full_name: 'IntelliJ IDEAS Community Edition 14.1.4'
     installer: 'https://download.jetbrains.com/idea/ideaIC-14.1.4.exe'
     install_flags: '/S'
@@ -10,7 +10,7 @@ intellij-community:
     reboot: False
 
 intellij-ultimate:
-  14.1.4:
+  '14.1.4':
     full_name: 'IntelliJ IDEAS Ultimate 14.1.4'
     installer: 'https://download.jetbrains.com/idea/ideaIU-14.1.4.exe'
     install_flags: '/S'

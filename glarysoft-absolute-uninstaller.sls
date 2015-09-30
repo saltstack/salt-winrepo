@@ -1,5 +1,5 @@
 glarysoft-absolute-uninstaller:
-  5.3.1.20:
+  '5.3.1.20':
     full_name: 'Absolute Uninstaller 5.3.1.20'
     installer: 'http://download.glarysoft.com/ausetup.exe'
     install_flags: '/S'

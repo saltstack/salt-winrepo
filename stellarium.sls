@@ -1,5 +1,5 @@
 stellarium:
-  0.13.3:
+  '0.13.3':
     full_name: 'Stellarium 0.13.3'
     installer: 'http://heanet.dl.sourceforge.net/project/stellarium/Stellarium-win64/0.13.3/stellarium-0.13.3-win64.exe'
     install_flags: '/silent'
@@ -8,7 +8,7 @@ stellarium:
     msiexec: False
     locale: en_US
     reboot: False
-  0.13.2:
+  '0.13.2':
     full_name: 'Stellarium 0.13.2'
     installer: 'http://heanet.dl.sourceforge.net/project/stellarium/Stellarium-win64/0.13.2/stellarium-0.13.2-win64.exe'
     install_flags: '/silent'
