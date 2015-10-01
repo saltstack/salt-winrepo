@@ -1,5 +1,5 @@
 wix-toolset:
-  3.10.0.2103:
+  '3.10.0.2103':
     full_name: 'WiX Toolset v3.10.0.2103'
     installer: 'https://wix.codeplex.com/downloads/get/1483377#'
     install_flags: '/q'
