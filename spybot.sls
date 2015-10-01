@@ -1,6 +1,6 @@
 # Source: http://www.safer-networking.org/
 spybot:
-  2.4:
+  '2.4':
     full_name: 'Spybot - Search & Destroy'
     installer: 'http://spybotupdates.com/files/spybot-2.4.exe'
     install_flags: '/VERYSILENT /SuppressMsgGBoxes /NoRestart /SP-'

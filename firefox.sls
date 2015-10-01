@@ -8,7 +8,7 @@ firefox:
     msiexec: False
     locale: en_US
     reboot: False
-  31.0esr:
+  '31.0esr':
     full_name: 'Mozilla Firefox 31.0 (x86 en-US)'
     installer: 'http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/31.0esr/win32/en-US/Firefox%20Setup%2031.0esr.exe'
     install_flags: '/s'
@@ -53,7 +53,7 @@ firefox:
     msiexec: False
     locale: en_US
     reboot: False
-  39.0:
+  '39.0':
     full_name: 'Mozilla Firefox 39.0 (x86 en-US)'
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/39.0/win32/en-US/Firefox%20Setup%2039.0.exe'
     install_flags: '/s'
@@ -71,7 +71,7 @@ firefox:
     msiexec: False
     locale: en_US
     reboot: False
-  40.0:
+  '40.0':
     full_name: 'Mozilla Firefox 40.0 (x86 en-US)'
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/40.0/win32/en-US/Firefox%20Setup%2040.0.exe'
     install_flags: '/s'

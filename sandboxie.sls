@@ -1,5 +1,5 @@
 sandboxie:
-  4.20:
+  '4.20':
     full_name: 'Sandboxie 4.20 (64-bit)'
     installer: 'http://www.sandboxie.com/attic/SandboxieInstall64-420.exe'
     install_flags: '/S'

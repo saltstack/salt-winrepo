@@ -1,6 +1,6 @@
 # Source: http://filehippo.com/download_update_checker/
 filehippo-app-manager_x86:
-  2.0:
+  '2.0':
     full_name: 'FileHippo App Manager'
     installer: 'salt://win/repo/filehippo-app-manager/AppManagerSetup_2.0.exe'
     install_flags: '/S'

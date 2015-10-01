@@ -1,5 +1,5 @@
 inkscape:
-  0.91:
+  '0.91':
     full_name: 'Inkscape 0.91'
     installer: 'https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.91-x64.msi'
     install_flags: '/qn /norestart'

@@ -1,5 +1,5 @@
 infrarecorder_x86:
-  0.53:
+  '0.53':
     full_name: 'InfraRecorder'
     installer: 'http://garr.dl.sourceforge.net/project/infrarecorder/InfraRecorder/0.53/ir053.exe'
     install_flags: '/S'

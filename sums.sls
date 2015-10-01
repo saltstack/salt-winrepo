@@ -1,5 +1,5 @@
 sums:
-  6.11:
+  '6.11':
     installer: |
                '@powershell -NoProfile -ExecutionPolicy unrestricted -Command "$shell = new-object -com shell.application
                $shell = new-object -com shell.application
