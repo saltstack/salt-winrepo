@@ -1,5 +1,5 @@
 golang_x86:
-  1.5:
+  '1.5':
     full_name: 'Go 1.5'
     installer: 'https://storage.googleapis.com/golang/go1.5.windows-386.msi'
     uninstaller: 'https://storage.googleapis.com/golang/go1.5.windows-386.msi'

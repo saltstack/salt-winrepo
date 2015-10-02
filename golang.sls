@@ -1,5 +1,5 @@
 golang:
-  1.5:
+  '1.5':
     full_name: 'Go 1.5 (64-bit)'
     installer: 'https://storage.googleapis.com/golang/go1.5.windows-amd64.msi'
     install_flags: '/qn /norestart'

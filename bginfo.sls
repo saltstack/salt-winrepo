@@ -1,5 +1,5 @@
 bginfo:
-  4.20:
+  '4.20':
     installer: 'http://live.sysinternals.com/Bginfo.exe'
     full_name: 'File Checksum Integrity Verifier version 2.05'
     reboot: False
