@@ -18,12 +18,3 @@ nsclient:
       msiexec: True
       locale: en_US
       reboot: False
-  '0.3.9.328':
-      full_name:  'NSClient++ (x64)'
-      installer: 'https://github.com/mickem/nscp/releases/download/0.3.9.328/NSCP-0.3.9.32-x64.msi'
-      install_flags: '/quiet'
-      uninstaller: 'https://github.com/mickem/nscp/releases/download/0.3.9.328/NSCP-0.3.9.32-x64.msi'
-      uninstall_flags: '/quiet'
-      msiexec: True
-      locale: en_US
-      reboot: False
