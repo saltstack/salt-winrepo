@@ -19,36 +19,6 @@ salt-minion:
     msiexec: False
     locale: en_US
     reboot: False
-  '2015.8.0rc4':
-    full_name: 'Salt Minion 2015.8.0rc4'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0rc4-AMD64-Setup.exe'
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
-    msiexec: False
-    locale: en_US
-    reboot: False
-  '2015.8.0rc3':
-    full_name: 'Salt Minion 2015.8.0rc3'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0rc3-AMD64-Setup.exe'
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
-    msiexec: False
-    locale: en_US
-    reboot: False
-  '2015.8.0rc2':
-    full_name: 'Salt Minion 2015.8.0rc2'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.0rc2-AMD64-Setup.exe'
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
-    msiexec: False
-    locale: en_US
-    reboot: False
   '2015.5.6':
     full_name: 'Salt Minion 2015.5.6'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.6-AMD64-Setup.exe'
