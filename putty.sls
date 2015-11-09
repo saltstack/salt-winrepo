@@ -1,4 +1,5 @@
 putty:
+  '0.66':
     full_name:  'PuTTY release 0.66'
     installer: 'http://the.earth.li/~sgtatham/putty/0.66/x86/putty-0.66-installer.exe'
     install_flags: '/SP- /verysilent /norestart'
