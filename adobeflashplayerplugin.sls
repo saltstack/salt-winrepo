@@ -8,7 +8,7 @@ adobeflashplayerplugin:
     msiexec: True
     locale: en_US
     reboot: False
-  19.0.0.245:
+  '19.0.0.245':
     full_name: 'Adobe Flash Player 19 NPAPI'
     installer: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_19_plugin.msi'
     install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
