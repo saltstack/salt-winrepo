@@ -1,4 +1,13 @@
 git_x86:
+  '2.6.4':
+    full_name: 'Git version 2.6.4'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.6.4.windows.1/Git-2.6.4-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2.6.2':
     full_name: 'Git version 2.6.2'
     installer: 'https://github.com/git-for-windows/git/releases/download/v2.6.2.windows.1/Git-2.6.2-32-bit.exe'
