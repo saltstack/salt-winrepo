@@ -1,4 +1,13 @@
 ccleaner:
+  '5.13':
+    full_name: 'CCleaner'
+    installer: 'http://download.piriform.com/ccsetup513.exe'
+    install_flags: '/S'
+    uninstaller: '%ProgramFiles(x86)%\CCleaner\uninst.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '5.12':
     full_name: 'CCleaner'
     installer: 'http://download.piriform.com/ccsetup512.exe'
