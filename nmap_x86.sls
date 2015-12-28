@@ -1,7 +1,7 @@
 nmap_x86:
   Not Found:
-    full_name: 'Nmap 6.47'
-    installer: 'http://nmap.org/dist/nmap-6.47-setup.exe'
+    full_name: 'Nmap 7.01'
+    installer: 'http://nmap.org/dist/nmap-7.01-setup.exe'
     install_flags: '/S'
     uninstaller: '%ProgramFiles%\Nmap\uninstall.exe"'
     uninstall_flags: '/S'
