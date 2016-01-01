@@ -1,4 +1,13 @@
 7zip_beta_x86:
+  '15.14':
+    full_name: '7-Zip 15.14 beta'
+    installer: 'http://heanet.dl.sourceforge.net/project/sevenzip/7-Zip/15.14/7z1514.exe'
+    install_flags: '/S /D="%ProgramFiles%\7-zip_beta"'
+    uninstaller: '%ProgramFiles%\7-zip_beta\Uninstall.exe' 
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '15.13':
     full_name: '7-Zip 15.13 beta'
     installer: 'http://heanet.dl.sourceforge.net/project/sevenzip/7-Zip/15.13/7z1513.exe'
