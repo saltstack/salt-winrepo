@@ -10,7 +10,7 @@ wireshark_x86:
     reboot: False
   '1.12.8':
     full_name:  'Wireshark 1.12.8'
-    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-1.12.6.exe'
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-1.12.8.exe'
     install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
     uninstaller: '%ProgramFiles%\Wireshark\uninstall.exe'
     uninstall_flags: '/S'
