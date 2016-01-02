@@ -1,6 +1,6 @@
 autoit:
-  '3.3.14.1':
-    full_name: 'AutoIt v3.3.14.1'
+  '3.3.14.2':
+    full_name: 'AutoIt v3.3.14.2'
     installer: 'https://www.autoitscript.com/files/autoit3/autoit-v3-setup.exe'
     install_flags: '/S'
     uninstaller: '%PROGRAMFILES(x86)%\AutoIt3\Uninstall.exe'
