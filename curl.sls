@@ -1,4 +1,13 @@
 curl: 
+  '7.46.0':
+    full_name: 'cURL'
+    installer: 'salt://win/repo/curl/curl-7.46.0-win64.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'salt://win/repo/curl/curl-7.46.0-win64.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '7.45.0':
     full_name: 'cURL'
     installer: 'salt://win/repo/curl/curl-7.45.0-win64.msi'
