@@ -1,5 +1,5 @@
 fiddler_x86:
-  '4.5.1.4':
+  '4.6.2.0':
     full_name:  'Fiddler'
     installer: 'http://fiddler2.com/dl/fiddler4setup.exe'
     install_flags: '/S /D=%ProgramFiles%\Fiddler'
@@ -8,7 +8,7 @@ fiddler_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  '2.5.1.2':
+  '2.6.2.0':
     full_name:  'Fiddler'
     installer: 'http://www.telerik.com/docs/default-source/fiddler/fiddler2setup.exe'
     install_flags: '/S /D=%ProgramFiles%\Fiddler'
