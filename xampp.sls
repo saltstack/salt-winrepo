@@ -8,7 +8,7 @@ xampp:
     msiexec: False
     locale: en_US
     reboot: False
-  '5.6.15.0':
+  '5.6.15.1':
     full_name: 'XAMPP 5.6.15'
     installer: 'http://heanet.dl.sourceforge.net/project/xampp/XAMPP%20Windows/5.6.15/xampp-win32-5.6.15-1-VC11-installer.exe'
     install_flags: '--mode unattended'
