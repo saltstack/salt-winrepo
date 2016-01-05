@@ -1,10 +1,10 @@
 # Source: http://www.techpowerup.com/gpuz/
-gpu-z:
+gpu-z_x86:
   Not Found:
     full_name: 'GPU-Z 0.8.6'
     installer: 'http://us1-dl.techpowerup.com/SysInfo/GPU-Z/GPU-Z.0.8.6.exe'
     install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\GPU-Z\uninstall.exe'
+    uninstaller: '%ProgramFiles%\GPU-Z\uninstall.exe'
     uninstall_flags: '/S'
     msiexec: False
     locale: en_US
