@@ -10,7 +10,7 @@ quicktime:
                      msiexec.exe /qn /x {691F30EB-9009-475A-B8A9-E1BF39598FD5} /norestart &
                      msiexec.exe /qn /x {FF59BD75-466A-4D5A-AD23-AAD87C5FD44C} /norestart &
                      exit 0'
-                     msiexec: False
+    msiexec: False
     locale: en_US
     reboot: False
     # the above uninstalls:
