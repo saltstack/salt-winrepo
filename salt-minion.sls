@@ -1,7 +1,7 @@
 salt-minion:
-  '2015.8.4':
-    full_name: 'Salt Minion 2015.8.4'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.4-AMD64-Setup.exe'
+  '2015.8.5':
+    full_name: 'Salt Minion 2015.8.5'
+    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.5-AMD64-Setup.exe'
     install_flags: '/S'
     uninstaller: 'C:\salt\uninst.exe'
     uninstall_flags: '/S'
