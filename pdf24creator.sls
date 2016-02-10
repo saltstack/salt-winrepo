@@ -1,4 +1,22 @@
 pdf24creator:
+  '7.6.3':
+    full_name: 'PDF24 Creator'
+    installer: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.6.3.msi'
+    install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
+    uninstaller: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.6.3.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
+  '7.6.2':
+    full_name: 'PDF24 Creator'
+    installer: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.6.2.msi'
+    install_flags: 'DESKTOPICONS=No FAXPRINTER=No /norestart /qn'
+    uninstaller: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.6.2.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '7.6.1':
     full_name: 'PDF24 Creator'
     installer: 'http://en.pdf24.org/products/pdf-creator/download/pdf24-creator-7.6.1.msi'
