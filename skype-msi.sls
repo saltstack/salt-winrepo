@@ -1,4 +1,22 @@
-skype-msi:
+skype-msi: 
+  '7.18.111':
+    full_name: 'Skype™ 7.18'
+    installer: 'http://download.skype.com/msi/SkypeSetup_7.18.0.111.msi'
+    install_flags: '/qn /norestart STARTSKYPE=FALSE TRANSFORMS=:RemoveDesktopShortcut.mst TRANSFORMS=:RemoveStartup.mst'
+    uninstaller: 'http://download.skype.com/msi/SkypeSetup_7.18.0.111.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
+  '7.18.103':
+    full_name: 'Skype™ 7.18'
+    installer: 'http://download.skype.com/msi/SkypeSetup_7.18.0.103.msi'
+    install_flags: '/qn /norestart STARTSKYPE=FALSE TRANSFORMS=:RemoveDesktopShortcut.mst TRANSFORMS=:RemoveStartup.mst'
+    uninstaller: 'http://download.skype.com/msi/SkypeSetup_7.18.0.103.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '7.17.106':
     full_name: 'Skype™ 7.17'
     installer: 'http://download.skype.com/msi/SkypeSetup_7.17.0.106.msi'
@@ -40,3 +58,4 @@ skype-msi:
 #
 # for explanation of silent switches read:
 # http://community.skype.com/t5/Windows-archive/Unattended-install/td-p/184628
+# you can also check microsite http://skype.techygeekshome.info/
