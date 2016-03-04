@@ -1,5 +1,5 @@
 bandizip:
-  '5.10':
+  '5.12':
     full_name: 'Bandizip'
     installer: 'http://ca-dl.bandisoft.com/bandizip/BANDIZIP-SETUP.EXE'
     install_flags: '/S'
