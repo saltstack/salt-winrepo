@@ -1,4 +1,13 @@
 thunderbird:
+  '38.6.0':
+    full_name: 'Mozilla Thunderbird 38.6.0 (x86 en-GB)'
+    installer: 'https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/38.6.0/win32/en-GB/Thunderbird%20Setup%2038.6.0.exe'
+    install_flags: '-ms'
+    uninstaller: '%ProgramFiles(x86)%\Mozilla Thunderbird\uninstall\helper.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '38.2.0':
     full_name: 'Mozilla Thunderbird 38.2.0 (x86 en-GB)'
     installer: 'https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/38.2.0/win32/en-GB/Thunderbird%20Setup%2038.2.0.exe'
