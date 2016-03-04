@@ -1,4 +1,13 @@
 wireshark_x86:
+  '2.0.2':
+    full_name:  'Wireshark 2.0.2'
+    installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-2.0.2.exe'
+    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
+    uninstaller: '%ProgramFiles%\Wireshark\uninstall.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2.0.1':
     full_name:  'Wireshark 2.0.1'
     installer: 'http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-2.0.1.exe'
