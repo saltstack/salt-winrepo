@@ -8,3 +8,12 @@ fiddler_x86:
     msiexec: False
     locale: en_US
     reboot: False
+  '2.6.2.2':
+    full_name:  'Fiddler'
+    installer: 'http://fiddler2.com/dl/fiddler2setup.exe'
+    install_flags: '/S /D=%ProgramFiles%\Fiddler'
+    uninstaller: '%PROGRAMFILES%\Fiddler\uninst.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
