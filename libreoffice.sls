@@ -1,4 +1,13 @@
 libreoffice:
+  '5.1.0':
+    full_name: 'LibreOffice 5.1.0'
+    installer: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/5.1.0/win/x86/LibreOffice_5.1.0_Win_x86.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/5.1.0/win/x86/LibreOffice_5.1.0_Win_x86.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '5.0.4.2':
     full_name: 'LibreOffice 5.0.4.2'
     installer: 'http://mirror.catn.com/pub/tdf/libreoffice/stable/5.0.4/win/x86/LibreOffice_5.0.4_Win_x86.msi'
