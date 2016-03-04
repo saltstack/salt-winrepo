@@ -1,4 +1,13 @@
 fiddler:
+  '4.6.2.2':
+    full_name:  'Fiddler'
+    installer: 'http://d585tldpucybw.cloudfront.net/docs/default-source/fiddler/fiddler4setup.exe?sfvrsn=80'
+    install_flags: '/S /D=%PROGRAMFILES(x86)%\Fiddler'
+    uninstaller: '%PROGRAMFILES(x86)%\Fiddler\uninst.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '4.6.2.0':
     full_name:  'Fiddler'
     installer: 'http://d585tldpucybw.cloudfront.net/docs/default-source/fiddler/fiddler4setup.exe?sfvrsn=76'
