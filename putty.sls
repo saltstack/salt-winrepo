@@ -1,4 +1,13 @@
 putty:
+  '0.67':
+    full_name:  'PuTTY release 0.67'
+    installer: 'http://the.earth.li/~sgtatham/putty/0.67/x86/putty-0.67-installer.exe'
+    install_flags: '/SP- /verysilent /norestart'
+    uninstaller: '%PROGRAMFILES(x86)%\PuTTY\unins000.exe'
+    uninstall_flags: '/SP- /verysilent /norestart'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '0.66':
     full_name:  'PuTTY release 0.66'
     installer: 'http://the.earth.li/~sgtatham/putty/0.66/x86/putty-0.66-installer.exe'
