@@ -1,3 +1,4 @@
+gvim_x86:
   '7.4':
     full_name:  'Vim 7.4 (self-installing)'
     installer: 'ftp://ftp.vim.org/pub/vim/pc/gvim74.exe'
