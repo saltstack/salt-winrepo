@@ -3,8 +3,8 @@ atom:
     full_name: 'Atom'
     installer: 'https://github.com/atom/atom/releases/download/v1.7.3/AtomSetup.exe'
     install_flags: '--machine'
-    uninstaller: ''
-    uninstall_flags: ''
+    uninstaller: '%AppData%\Local\atom\Update.exe'
+    uninstall_flags: '--uninstall'
     msiexec: False
     locale: en_US
     reboot: False
