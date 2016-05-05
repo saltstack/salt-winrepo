@@ -1,4 +1,25 @@
 itunes_x86:
+  '12.3.3.17':
+    full_name: 'iTunes'
+    installer: 'https://secure-appldnld.apple.com/itunes12/031-51750-20160321-347A2ABE-EE10-11E5-82F2-A815BE379832/iTunesSetup.exe'
+    install_flags: '/quiet /qn /norestart'
+    uninstaller: 'msiexec.exe'
+    uninstall_flags: |
+                     '/qn /norestart /x {D168AAD0-6686-47C1-B599-CDD4888B9D1A} &
+                     msiexec.exe /qn /norestart /x {56EC47AA-5813-4FF6-8E75-544026FBEA83} &
+                     msiexec.exe /qn /norestart /x {15A0A9A6-6CF0-4EEE-8E12-096B33F92CA7} &
+                     msiexec.exe /qn /norestart /x {FE5C2FAA-118D-4509-B51D-3F71CC9E1B3E} &
+                     msiexec.exe /qn /norestart /x {3079C5C8-325A-4354-A733-456BACA1E5FB} &                 
+                     exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+    # the above uninstalls:
+    # Bonjour v. 3.1.0.1  {D168AAD0-6686-47C1-B599-CDD4888B9D1A}
+    # Apple Software Update v. 2.2.0.150 {56EC47AA-5813-4FF6-8E75-544026FBEA83}
+    # Apple Mobile Device Support v. 9.3.0.15 {9A629DCB-415D-4A50-85B9-5C2E4F8F74A8}
+    # Apple Application Support (32-bit)  v. 4.3 {FE5C2FAA-118D-4509-B51D-3F71CC9E1B3E}
+    # iTunes v. 12.3.3.17 {3079C5C8-325A-4354-A733-456BACA1E5FB}
   '12.3.2.35':
     full_name: 'iTunes'
     installer: 'https://secure-appldnld.apple.com/itunes12/031-46283-20151221-B980AF46-A818-11E5-BD92-41FB9FDF2184/iTunesSetup.exe'
