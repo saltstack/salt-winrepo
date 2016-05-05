@@ -1,4 +1,18 @@
 jre8:
+  '8.0.910.14':
+    full_name: 'Java 8 Update 91 (64-bit)'
+    installer: 'salt://win/repo-ng/jre8/jre-8u91-windows-x64.exe'
+    install_flags: '/s REBOOT=Suppress SPONSORS=0'
+    uninstaller: 'msiexec.exe'
+    uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F86418091F0} /norestart'
+    msiexec: False
+    locale: en_US
+    reboot: False
+    # due to winrepo installer limitations you need to manually download the exe from
+    # http://javadl.oracle.com/webapps/download/AutoDL?BundleId=207775
+    # and put it on the winrepo on master to install it the 'salt://win/repo-ng/jre8/... way
+    # to find manual download links for any version use:
+    # http://www.java.com/en/download/manual.jsp
   '8.0.730.2':
     full_name: 'Java 8 Update 73 (64-bit)'
     installer: 'salt://win/repo/jre8/jre-8u73-windows-x64.exe'
