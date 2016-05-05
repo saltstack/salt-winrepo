@@ -1,4 +1,13 @@
 python2_x86:
+  '2.7.11150':
+    full_name: 'Python 2.7.11'
+    installer: 'http://www.python.org/ftp/python/2.7.11/python-2.7.11.msi'
+    install_flags: '/qn /norestart ALLUSERS=1'
+    uninstaller: 'http://www.python.org/ftp/python/2.7.11/python-2.7.11.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '2.7.10150':
     full_name: 'Python 2.7.10'
     installer: 'http://www.python.org/ftp/python/2.7.10/python-2.7.10.msi'
