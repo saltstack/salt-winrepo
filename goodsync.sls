@@ -1,5 +1,5 @@
 goodsync: 
-  '9.9.41.7':
+  '9.9.46.6':
     full_name: 'GoodSync'
     installer: 'https://www.goodsync.com/download/GoodSync-Setup.msi'
     install_flags: '/qn /norestart'
