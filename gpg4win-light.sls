@@ -1,4 +1,13 @@
 gpg4win-light:
+  '2.3.1':
+    full_name: 'Gpg4Win (2.3.1)'
+    installer: 'http://files.gpg4win.org/gpg4win-light-2.3.1.exe'
+    install_flags: '/S'
+    uninstaller: '%ProgramFiles(x86)%\GNU\GnuPG\gpg4win-uninstall.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2.3.0':
     full_name: 'Gpg4Win (2.3.0)'
     installer: 'http://files.gpg4win.org/gpg4win-light-2.3.0.exe'
