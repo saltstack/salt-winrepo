@@ -36,12 +36,13 @@ adobeflashplayerplugin:
     msiexec: True
     locale: en_US
     reboot: False
-  '16.0.0.296':
-    full_name: 'Adobe Flash Player 16 NPAPI'
-    installer: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_plugin.msi'
-    install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
-    uninstaller: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_plugin.msi'
-    uninstall_flags: '/qn /norestart'
-    msiexec: True
-    locale: en_US
-    reboot: False
+# got a 404 on ver. 19 on 13-5-16
+#  '16.0.0.296':
+#    full_name: 'Adobe Flash Player 16 NPAPI'
+#    installer: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_plugin.msi'
+#    install_flags: '/quiet /norestart REMOVE_PREVIOUS=YES'
+#    uninstaller: 'http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_plugin.msi'
+#    uninstall_flags: '/qn /norestart'
+#    msiexec: True
+#    locale: en_US
+#    reboot: False
