@@ -44,15 +44,6 @@ firefox_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  '40.1':
-    full_name: 'Mozilla Firefox 40.1 (x86 en-US)'
-    installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/40.1/win32/en-US/Firefox%20Setup%2040.1.exe'
-    install_flags: '/s'
-    uninstaller: '%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'
-    msiexec: False
-    locale: en_US
-    reboot: False
   '41.0':
     full_name: 'Mozilla Firefox 41.0 (x86 en-US)'
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/41.0/win32/en-US/Firefox%20Setup%2041.0.exe'
@@ -173,6 +164,15 @@ firefox_x86:
   '46.0':
     full_name: 'Mozilla Firefox 46.0 (x86 en-US)'
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/46.0/win32/en-US/Firefox%20Setup%2046.0.exe'
+    install_flags: '/s'
+    uninstaller: '%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '46.0.1':
+    full_name: 'Mozilla Firefox 46.0.1 (x86 en-US)'
+    installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/46.0.1/win32/en-US/Firefox%20Setup%2046.0.1.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe'
     uninstall_flags: '/S'
