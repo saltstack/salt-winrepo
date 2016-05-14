@@ -9,12 +9,3 @@ handbrake_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  '0.10.2':
-    full_name: 'Handbrake 0.10.2'
-    installer: 'https://handbrake.fr/mirror/HandBrake-0.10.2-i686-Win_GUI.exe'
-    install_flags: '/S'
-    uninstaller: '%ProgramFiles(x86)%\Handbrake\uninst.exe'
-    uninstall_flags: '/S'
-    msiexec: False
-    locale: en_US
-    reboot: False
