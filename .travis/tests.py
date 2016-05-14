@@ -44,4 +44,3 @@ for cpuarch in ['AMD64', 'x86']:
                 continue
             data = yaml.load(yml)
             process_each(data)
-
