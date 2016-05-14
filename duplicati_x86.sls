@@ -8,6 +8,3 @@ duplicati_x86:
     msiexec: True
     locale: en_US
     reboot: False
-    refresh: False
-    cache_dir: False
-    use_scheduler: False
