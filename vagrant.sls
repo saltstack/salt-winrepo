@@ -1,7 +1,7 @@
 vagrant:
   '1.8.1':
     full_name: 'Vagrant'
-    installer: 'https://dl.bintray.com/mitchellh/vagrant/1.8.1/vagrant_1.8.1.msi'
+    installer: 'https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1.msi'
     install_flags: '/qn /norestart'
     uninstaller: 'https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1.msi'
     uninstall_flags: '/qn /norestart'
