@@ -1,5 +1,5 @@
 ms-vcpp-2015-redist_x86:
-  '14.0.23026':
+  '14.0.23026.0':
     full_name: 'Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23026'
     installer: 'http://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe'
     install_flags: '/quiet /norestart'
