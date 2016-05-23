@@ -72,7 +72,7 @@ itunes_x86:
                      msiexec.exe /qn /norestart /x {789A5B64-9DD9-4BA5-915A-F0FC0A1B7BFE} &
                      msiexec.exe /qn /norestart /x {538227C6-C74B-4A74-99E1-2C0B4F9DA5E1} &
                      msiexec.exe /qn /norestart /x {7FE25256-B7C1-480D-B736-10A67A833AEA} &
-                     msiexec.exe /qn /norestart /x {025E78AC-BD91-4E9E-B165-3C09D4084BA4} &           
+                     msiexec.exe /qn /norestart /x {025E78AC-BD91-4E9E-B165-3C09D4084BA4} &
                      exit 0'
     msiexec: False
     locale: en_US
@@ -93,7 +93,7 @@ itunes_x86:
                      msiexec.exe /qn /norestart /x {789A5B64-9DD9-4BA5-915A-F0FC0A1B7BFE} &
                      msiexec.exe /qn /norestart /x {538227C6-C74B-4A74-99E1-2C0B4F9DA5E1} &
                      msiexec.exe /qn /norestart /x {7FE25256-B7C1-480D-B736-10A67A833AEA} &
-                     msiexec.exe /qn /norestart /x {9DBBE7B8-EE7A-4FD9-9C7F-35E69A4C19D8} &           
+                     msiexec.exe /qn /norestart /x {9DBBE7B8-EE7A-4FD9-9C7F-35E69A4C19D8} &
                      exit 0'
     msiexec: False
     locale: en_US
