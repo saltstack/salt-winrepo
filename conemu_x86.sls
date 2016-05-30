@@ -4,7 +4,7 @@ conemu_x86:
     installer: 'https://github.com/Maximus5/ConEmu/releases/download/v16.05.29/ConEmuSetup.160529.exe'
     install_flags: '/p:x86,adm /quiet /norestart'
     uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {A75DF0AD-CC78-48F5-8DEF-868A393CE9DF} /norestart'
+    uninstall_flags: '/qn /x {565674FD-3E5D-4234-8829-8B2EF7E88975} /norestart'
     msiexec: False
     locale: en_US
     reboot: False
