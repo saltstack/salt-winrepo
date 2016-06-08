@@ -1,6 +1,6 @@
 keepass:
   '1.31.0':
-    full_name: 'KeePass 1.30'
+    full_name: 'KeePass 1.31'
     installer: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%201.x/1.31/KeePass-1.31.msi'
     install_flags: '/qn /norestart'
     uninstaller: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%201.x/1.31/KeePass-1.31.msi'
