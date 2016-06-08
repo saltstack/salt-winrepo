@@ -1,4 +1,13 @@
 firefox-esr_x86:
+  '45.2.0':
+    full_name: 'Mozilla Firefox 45.2.0 ESR (x86 en-US)'
+    installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.2.0esr/win32/en-US/Firefox%20Setup%2045.2.0esr.exe'
+    install_flags: '/s'
+    uninstaller: '%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '45.1.0':
     full_name: 'Mozilla Firefox 45.1.0 ESR (x86 en-US)'
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.1.0esr/win32/en-US/Firefox%20Setup%2045.1.0esr.exe'
