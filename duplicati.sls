@@ -1,4 +1,5 @@
 duplicati:
+  skip_urltest: True
   '1.3.4':
     full_name: 'Duplicati (x64)'
     installer: 'https://duplicati.googlecode.com/files/Duplicati%201.3.4.x64.msi'
