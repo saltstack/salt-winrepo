@@ -189,46 +189,6 @@ salt-minion_x86:
     msiexec: False
     locale: en_US
     reboot: False
-  '2014.7.5-2':
-    full_name: 'Salt Minion 2014.7.5-2'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.5-2-x86-Setup.exe'
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
-    msiexec: False
-    locale: en_US
-    reboot: False
-  '2014.7.4':
-    full_name: 'Salt Minion 2014.7.4'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.4-x86-Setup.exe'
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
-    msiexec: False
-    locale: en_US
-    reboot: False
-  '2014.7.2':
-    full_name: 'Salt Minion 2014.7.2'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.2-x86-Setup.exe'
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
-    msiexec: False
-    locale: en_US
-    reboot: False
-  '2014.7.1':
-    full_name: 'Salt Minion 2014.7.1'
-    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2014.7.1-x86-Setup.exe'
-    install_flags: '/S'
-    uninstaller: 'C:\salt\uninst.exe'
-    uninstall_flags: '/S'
-    refresh: true
-    msiexec: False
-    locale: en_US
-    reboot: False
   '2014.1.13':
     full_name: 'Salt Minion 2014.1.13'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.13-x86-Setup.exe'
