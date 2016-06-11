@@ -1,4 +1,13 @@
 keepass-2x:
+  '2.34.0':
+    full_name: 'KeePass 2.34'
+    installer: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%202.x/2.34/KeePass-2.34.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%202.x/2.34/KeePass-2.34.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '2.33.0':
     full_name: 'KeePass 2.33'
     installer: 'http://vorboss.dl.sourceforge.net/project/keepass/KeePass%202.x/2.33/KeePass-2.33.msi'
