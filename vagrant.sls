@@ -1,4 +1,13 @@
 vagrant:
+  '1.8.4':
+    full_name: 'Vagrant'
+    installer: 'https://releases.hashicorp.com/vagrant/1.8.4/vagrant_1.8.4.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'https://releases.hashicorp.com/vagrant/1.8.4/vagrant_1.8.4.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '1.8.1':
     full_name: 'Vagrant'
     installer: 'https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1.msi'
