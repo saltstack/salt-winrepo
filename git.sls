@@ -1,4 +1,13 @@
 git:
+  '2.9.0':
+    full_name: 'Git version 2.9.0'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.9.0.windows.1/Git-2.9.0-64-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles(x86)%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2.8.4':
     full_name: 'Git version 2.8.4'
     installer: 'https://github.com/git-for-windows/git/releases/download/v2.8.4.windows.1/Git-2.8.4-64-bit.exe'
