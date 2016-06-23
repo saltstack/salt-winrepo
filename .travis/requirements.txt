@@ -1,4 +1,4 @@
 pyaml
 jinja2
 pycurl
-pygit
+pythongit
