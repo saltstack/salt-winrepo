@@ -3,7 +3,7 @@
 ice:
   '3.6.1.2':
     full_name: 'Ice 3.6.1.2'
-    installer: 'https://zeroc.com/download/Ice/3.6/Ice-3.6.1-2.msi'
+    installer: 'https://download.zeroc.com/Ice/3.6/Ice-3.6.1-2.msi'
     uninstaller: '{CEEE6D1F-5545-4CC0-8FF9-55911A22B68D}'
     install_flags: '/qn /norestart'
     uninstall_flags: '/qn /norestart'
