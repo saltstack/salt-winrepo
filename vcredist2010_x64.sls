@@ -7,4 +7,4 @@ vcredist2010_x64:
     uninstall_flags: '/uninstall /norestart /q'
     msiexec: False
     locale: en_US
-    reboot: False    
+    reboot: False

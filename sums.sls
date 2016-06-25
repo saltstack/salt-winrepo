@@ -14,12 +14,12 @@ sums:
     install_flags: ''
     uninstaller: 'cmd'
     uninstall_flags: |
-                     '/c del /q /f %SystemRoot%\readme & 
-                      del /q /f %SystemRoot%\copying & 
-                      del /q /f %SystemRoot%\md5sum.exe & 
-                      del /q /f %SystemRoot%\sha1sum.exe & 
-                      del /q /f %SystemRoot%\sha224sum.exe & 
-                      del /q /f %SystemRoot%\sha256sum.exe & 
-                      del /q /f %SystemRoot%\sha384sum.exe & 
-                      del /q /f %SystemRoot%\sha512sum.exe & 
+                     '/c del /q /f %SystemRoot%\readme &
+                      del /q /f %SystemRoot%\copying &
+                      del /q /f %SystemRoot%\md5sum.exe &
+                      del /q /f %SystemRoot%\sha1sum.exe &
+                      del /q /f %SystemRoot%\sha224sum.exe &
+                      del /q /f %SystemRoot%\sha256sum.exe &
+                      del /q /f %SystemRoot%\sha384sum.exe &
+                      del /q /f %SystemRoot%\sha512sum.exe &
                       exit 0'

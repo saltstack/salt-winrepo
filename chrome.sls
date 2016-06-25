@@ -1,4 +1,4 @@
-# Source: http://www.google.nl/intl/en/chrome/business/browser/admin/ 
+# Source: http://www.google.nl/intl/en/chrome/business/browser/admin/
 chrome:
   latest:
     full_name: 'Google Chrome'

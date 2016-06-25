@@ -168,7 +168,7 @@ salt-minion_x86:
     refresh: true
     msiexec: False
     locale: en_US
-    reboot: False    
+    reboot: False
   '2015.5.3-2':
     full_name: 'Salt Minion 2015.5.3-2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.3-2-x86-Setup.exe'

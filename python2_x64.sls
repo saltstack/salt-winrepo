@@ -7,7 +7,7 @@ python2_x64:
     uninstall_flags: '/qn /norestart'
     msiexec: True
     locale: en_US
-    reboot: False  
+    reboot: False
   '2.7.7150':
     full_name: 'Python 2.7.7 (64-bit)'
     installer: 'http://www.python.org/ftp/python/2.7.7/python-2.7.7.amd64.msi'

@@ -5,6 +5,6 @@ ms-vcpp-2008-redist_x86:
     install_flags: '/qn /norestart'
     uninstaller: 'msiexec.exe'
     uninstall_flags: '/qn /x {FF66E9F6-83E7-3A3E-AF14-8DE9A809A6A4} /norestart'
-    msiexec: False 
+    msiexec: False
     locale: en_US
     reboot: False
