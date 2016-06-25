@@ -25,7 +25,7 @@ filezilla:
     uninstall_flags: '/S'
     msiexec: False
     locale: en_US
-    reboot: False  
+    reboot: False
   '3.13.1':
     full_name: FileZilla Client 3.13.1
     installer: 'http://heanet.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.13.1/FileZilla_3.13.1_win64-setup.exe'

@@ -1,5 +1,5 @@
 nxlog:
-  '2.9.1504': 
+  '2.9.1504':
     full_name:  'NXLog-CE'
     installer: 'http://nxlog.org/system/files/products/files/1/nxlog-ce-2.9.1504.msi'
     install_flags: '/quiet /norestart'

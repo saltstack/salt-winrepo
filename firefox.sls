@@ -67,7 +67,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/39.0.3/win32/en-US/Firefox%20Setup%2039.0.3.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S' 
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -76,7 +76,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/40.0/win32/en-US/Firefox%20Setup%2040.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S' 
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -85,7 +85,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/40.0.2/win32/en-US/Firefox%20Setup%2040.0.2.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -94,7 +94,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/40.0.3/win32/en-US/Firefox%20Setup%2040.0.3.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -103,7 +103,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/41.0/win32/en-US/Firefox%20Setup%2041.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -112,7 +112,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/41.0.1/win32/en-US/Firefox%20Setup%2041.0.1.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -121,7 +121,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/41.0.2/win32/en-US/Firefox%20Setup%2041.0.2.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -130,7 +130,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/42.0/win32/en-US/Firefox%20Setup%2042.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -139,7 +139,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/43.0/win32/en-US/Firefox%20Setup%2043.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -148,7 +148,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/43.0.1/win32/en-US/Firefox%20Setup%2043.0.1.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -157,7 +157,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/43.0.2/win32/en-US/Firefox%20Setup%2043.0.2.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -166,7 +166,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/43.0.3/win32/en-US/Firefox%20Setup%2043.0.3.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -175,7 +175,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/43.0.4/win32/en-US/Firefox%20Setup%2043.0.4.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -184,7 +184,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/44.0/win32/en-US/Firefox%20Setup%2044.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -193,7 +193,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/44.0.1/win32/en-US/Firefox%20Setup%2044.0.1.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -202,7 +202,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/44.0.2/win32/en-US/Firefox%20Setup%2044.0.2.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -211,7 +211,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.0/win32/en-US/Firefox%20Setup%2045.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -220,7 +220,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.0.1/win32/en-US/Firefox%20Setup%2045.0.1.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -229,7 +229,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.0.2/win32/en-US/Firefox%20Setup%2045.0.2.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -238,7 +238,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/46.0/win32/en-US/Firefox%20Setup%2046.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -247,7 +247,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/46.0.1/win32/en-US/Firefox%20Setup%2046.0.1.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
@@ -256,7 +256,7 @@ firefox:
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/47.0/win32/en-US/Firefox%20Setup%2047.0.exe'
     install_flags: '/s'
     uninstaller: '%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe'
-    uninstall_flags: '/S'     
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False
