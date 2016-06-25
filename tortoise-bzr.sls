@@ -5,7 +5,7 @@ tortoise-bzr:
     installer: 'https://launchpadlibrarian.net/107526036/bzr-2.5.1-1-setup.exe'
     install_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
     uninstaller: '%ProgramFiles(x86)%\Bazaar\uninst000.exe'
-    uninstall_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'     
+    uninstall_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
     msiexec: False
     locale: en_US
     reboot: False

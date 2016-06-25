@@ -7,4 +7,4 @@ webplatforminstaller:
     uninstall_flags: '/qn /norestart'
     msiexec: True
     locale: en_US
-    reboot: False    
+    reboot: False

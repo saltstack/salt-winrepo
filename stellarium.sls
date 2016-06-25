@@ -4,7 +4,7 @@ stellarium:
     installer: 'http://heanet.dl.sourceforge.net/project/stellarium/Stellarium-win64/0.13.3/stellarium-0.13.3-win64.exe'
     install_flags: '/silent'
     uninstaller: '%ProgramFiles%\Stellarium\unins000.exe'
-    uninstall_flags: '/silent' 
+    uninstall_flags: '/silent'
     msiexec: False
     locale: en_US
     reboot: False
@@ -13,8 +13,8 @@ stellarium:
     installer: 'http://heanet.dl.sourceforge.net/project/stellarium/Stellarium-win64/0.13.2/stellarium-0.13.2-win64.exe'
     install_flags: '/silent'
     uninstaller: '%ProgramFiles%\Stellarium\unins000.exe'
-    uninstall_flags: '/silent' 
+    uninstall_flags: '/silent'
     msiexec: False
     locale: en_US
     reboot: False
-    
+

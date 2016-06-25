@@ -168,7 +168,7 @@ salt-minion:
     refresh: true
     msiexec: False
     locale: en_US
-    reboot: False    
+    reboot: False
   '2015.5.3-2':
     full_name: 'Salt Minion 2015.5.3-2'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.5.3-2-AMD64-Setup.exe'
@@ -239,7 +239,7 @@ salt-minion:
     msiexec: False
     locale: en_US
     reboot: False
-  '2014.1.7':    
+  '2014.1.7':
     full_name: 'Salt Minion 2014.1.7'
     installer: 'https://repo.saltstack.com/windows/archive/Salt-Minion-2014.1.7-AMD64-Setup.exe'
     install_flags: '/S'

@@ -1,4 +1,4 @@
-skype-msi: 
+skype-msi:
   '7.23.105':
     full_name: 'Skype™ 7.23'
     installer: 'http://download.skype.com/msi/SkypeSetup_7.23.0.105.msi'

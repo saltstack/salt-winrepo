@@ -116,7 +116,7 @@ git:
     msiexec: False
     locale: en_US
     reboot: False
-msysgit:    
+msysgit:
   '1.9.5-preview20150319':
     full_name: 'Git version 1.9.5-preview20150319'
     installer: 'https://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20150319/Git-1.9.5-preview20150319.exe'

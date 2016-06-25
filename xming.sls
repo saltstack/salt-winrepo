@@ -6,6 +6,6 @@ xming:
     install_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
     uninstaller: '%PROGRAMFILES(x86)%\Xming\unins000.exe'
     uninstall_flags: '/SP- /VERYSILENT /NORESTART'
-    msiexec: False 
+    msiexec: False
     locale: en_US
     reboot: False
