@@ -5,7 +5,7 @@ bulk_extractor:
     install_flags: ' /S /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\Bulk Extractor 1.5.5\uninstall.exe'
     uninstall_flags: '/S'
-    msiexec: False    
+    msiexec: False
     locale: en_US
     reboot: False
   '1.5.1':
@@ -14,7 +14,7 @@ bulk_extractor:
     install_flags: ' /S /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\Bulk Extractor 1.5.1\uninstall.exe'
     uninstall_flags: '/S'
-    msiexec: False    
+    msiexec: False
     locale: en_US
     reboot: False
   '1.5.0':
@@ -23,6 +23,6 @@ bulk_extractor:
     install_flags: ' /S /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\Bulk Extractor 1.5.0\uninstall.exe'
     uninstall_flags: '/S'
-    msiexec: False    
+    msiexec: False
     locale: en_US
     reboot: False

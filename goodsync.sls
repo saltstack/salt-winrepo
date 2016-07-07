@@ -1,4 +1,4 @@
-goodsync: 
+goodsync:
   '9.9.46.6':
     full_name: 'GoodSync'
     installer: 'https://www.goodsync.com/download/GoodSync-Setup.msi'

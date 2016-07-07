@@ -1,7 +1,7 @@
 winscp_x86:
   '5.7.6':
     full_name: 'WinSCP 5.7.6'
-    installer: 'http://heanet.dl.sourceforge.net/project/winscp/WinSCP/5.7.6/winscp575setup.exe'
+    installer: 'http://heanet.dl.sourceforge.net/project/winscp/WinSCP/5.7.6/winscp576setup.exe'
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES%\WinSCP\unins000.exe'
     uninstall_flags: '/verysilent'

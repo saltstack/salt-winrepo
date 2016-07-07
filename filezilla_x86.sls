@@ -1,4 +1,4 @@
-filezilla_x86: 
+filezilla_x86:
   '3.16.0':
     full_name: FileZilla Client 3.16.0
     installer: 'http://vorboss.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.16.0/FileZilla_3.16.0_win32-setup.exe'
