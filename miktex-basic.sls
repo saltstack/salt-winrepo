@@ -1,7 +1,7 @@
 miktex-basic:
   '2.9':
     full_name: 'MiKTeX 2.9'
-    installer: 'http://mirror.ox.ac.uk/sites/ctan.org/systems/win32/miktex/setup/basic-miktex-2.9.5997-x64.exe'
+    installer: 'http://mirror.ox.ac.uk/sites/ctan.org/systems/win32/miktex/setup/basic-miktex-2.9.6022-x64.exe'
     install_flags: '--auto-install=yes --paper-size=A4 --shared --unattended --package-set=basic --program-folder="%ProgramFiles%\MiKTeX 2.9\"'
     uninstaller: 'cmd'
     uninstall_flags: |
