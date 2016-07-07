@@ -19,4 +19,4 @@ tortoise-hg_x86:
     locale: en_US
     reboot: False
 # Need to download from source site above, so it will append proper aws key credentials
-# place downloaded msi in master's win_repo 
+# place downloaded msi in master's win_repo

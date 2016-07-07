@@ -1,7 +1,7 @@
 ultradefrag:
-  '7.0.0':
+  '7.0.1':
     full_name: 'Ultra Defragmenter'
-    installer: 'http://iweb.dl.sourceforge.net/project/ultradefrag/stable-release/7.0.0/ultradefrag-7.0.0.bin.amd64.exe'
+    installer: 'http://netcologne.dl.sourceforge.net/project/ultradefrag/stable-release/7.0.1/ultradefrag-7.0.1.bin.amd64.exe'
     install_flags: '/S /FULL=1'
     uninstaller: '%ProgramFiles%\UltraDefrag\uninstall.exe'
     uninstall_flags: '/S'
@@ -13,7 +13,7 @@ ultradefrag:
     installer: 'http://heanet.dl.sourceforge.net/project/ultradefrag/stable-release/6.0.2/ultradefrag-6.0.2.bin.amd64.exe'
     install_flags: '/S /FULL=1'
     uninstaller: '%ProgramFiles%\UltraDefrag\uninstall.exe'
-    uninstall_flags: '/S' 
+    uninstall_flags: '/S'
     msiexec: False
     locale: en_US
     reboot: False

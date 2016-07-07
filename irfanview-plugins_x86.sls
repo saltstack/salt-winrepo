@@ -5,7 +5,7 @@ irfanview-plugins_x86:
     # download manually from: http://www.irfanview.info/files/irfanview_plugins_440_setup.exe and place on master
     install_flags: '/silent'
     uninstaller: ''
-    uninstall_flags: '' 
+    uninstall_flags: ''
     msiexec: False
     locale: en_US
     reboot: False

@@ -13,7 +13,7 @@ ultravnc_x86:
     installer: 'http://www.uvnc.eu/1196/UltraVNC_1_1_9_X86_Setup.exe'
     install_flags: '/verysilent /norestart'
     uninstaller: '%programfiles(x86)%/uvnc bvba/UltraVNC/unins000.exe'
-    uninstall_flags: '/verysilent'  
+    uninstall_flags: '/verysilent'
     msiexec: False
     locale: en_US
     reboot: False
