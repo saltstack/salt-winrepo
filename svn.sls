@@ -1,4 +1,4 @@
-svn: 
+svn:
   '1.8.13':
     full_name: 'Subversion'
     installer: 'http://sourceforge.net/projects/win32svn/files/1.8.13/Setup-Subversion-1.8.13.msi'

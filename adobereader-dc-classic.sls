@@ -1,4 +1,4 @@
-# to understand what is meant by "classic" see 
+# to understand what is meant by "classic" see
 # http://www.adobe.com/devnet-docs/acrobatetk/tools/AdminGuide/whatsnewdc.html
 
 adobereader-dc-classic:

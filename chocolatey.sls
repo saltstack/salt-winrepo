@@ -2,7 +2,7 @@ chocolatey:
   '0.9.10':
     full_name: 'Chocolatey v0.9.10'
     installer: 'https://chocolatey.org/installChocolatey.cmd'
-    install_flags: | 
+    install_flags: |
                    ' &
                    reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f & 
                    reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v DisplayName /d "Chocolatey v0.9.10" & 

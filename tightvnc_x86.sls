@@ -7,4 +7,4 @@ tightvnc_x86:
     uninstall_flags: '/quiet /norestart'
     msiexec: True
     locale: en_US
-    reboot: False 
+    reboot: False

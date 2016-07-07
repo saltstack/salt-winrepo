@@ -10,4 +10,4 @@ jre_x86:
     reboot: False
     # due to winrepo installer limitations you need to manually download the exe from
     # http://javadl.sun.com/webapps/download/AutoDL?BundleId=106367
-    # and put it on the winrepo on master to install it the 'salt://win/repo/jre_x86/... way    
+    # and put it on the winrepo on master to install it the 'salt://win/repo/jre_x86/... way

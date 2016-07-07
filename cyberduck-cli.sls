@@ -1,5 +1,5 @@
 cyberduck-cli:
-  '1.0.0.0': 
+  '1.0.0.0':
     full_name: 'Cyberduck CLI'
     installer: 'http://dist.duck.sh/duck-5.0.3.20504.exe'
     install_flags: '/quiet /norestart'
