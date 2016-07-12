@@ -133,20 +133,25 @@ else:
 
 
 for cpuarch in ['AMD64', 'x86']:
-    print("--------(arch: %s)--------" % cpuarch)
-    if len(ourfiles) == 0:
-        print("No files to check. No problem. ")
-        continue
-    for file in ourfiles:
-        print("---( "+ file + " )---")
-        with open(file, 'r') as stream:
-            template = stream.read()
-            
-            t = Template(template)
-            yml = t.render(grains={'cpuarch':cpuarch})
-            
-            data = yaml.load(yml)
-            process_each(data)
-print("-"*80)
+	try:	
+		print("--------(arch: %s)--------" % cpuarch)
+    		if len(ourfiles) == 0:
+        		print("No files to check. No problem. ")
+        		continue
+    		for file in ourfiles:
+        		print("---( "+ file + " )---")
+        		with open(file, 'r') as stream:
+				template = stream.read()
+            		t = Template(template)
+            		yml = t.render(grains={'cpuarch':cpuarch})
+            		data = yaml.load(yml)
+            		process_each(data)
+		print("-"*80)
+	except:
+		e = sys.exc_info()[0]
+		print("---( "+ file + " )---")
+		print("%s % e") 
+		pass
+ 
 assert teststatus, "BUILD FAILING. You can grep for 'PROBLEM HERE' to find out how to fix this. "
 print("Everything went smoothly. No errors were found. Happy deployment! ")
