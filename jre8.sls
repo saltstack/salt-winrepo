@@ -1,5 +1,5 @@
 jre8:
-  '8.0.910.14':
+  '8.0.910.15':
     full_name: 'Java 8 Update 91 (64-bit)'
     installer: 'salt://win/repo-ng/jre8/jre-8u91-windows-x64.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
