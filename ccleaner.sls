@@ -1,5 +1,5 @@
 ccleaner:
- '5.20':
+  '5.20':
     full_name: 'CCleaner'
     installer: 'http://download.piriform.com/ccsetup520.exe'
     install_flags: '/S'
