@@ -17,6 +17,11 @@ itunes:
     # Apple Application Support (32-bit)  v. 4.3.2 {D4B07658-F443-4445-A261-E643996E139D}
     # Apple Application Support (64-bit) v. 4.3.2 {A6B0442B-E159-444B-B49D-6B9AC531EAE3}
     # iTunes v. 12.4.2.4 {E109B4A3-9883-4E6E-9A19-4D7E1A88AFE8}
+    install_flags: '/quiet /qn ALLUSERS=1 /norestart'
+    uninstaller: 'msiexec.exe'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '12.3.3.17':
     full_name: 'iTunes'
     installer: 'https://secure-appldnld.apple.com/itunes12/031-51753-20160321-347A2E56-EE10-11E5-814B-AA15BE379832/iTunes6464Setup.exe'
