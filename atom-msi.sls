@@ -1,6 +1,6 @@
 atom-msi:
-  '1.8.0':
-    full_name: 'Atom'
+  '1.2.4':
+    full_name: 'Atom Machine-Wide Installer'
     installer: 'https://github.com/atom/atom/releases/download/v1.8.0/AtomSetup.msi'
     install_flags: '/qn /norestart'
     uninstaller: 'https://github.com/atom/atom/releases/download/v1.8.0/AtomSetup.msi'
