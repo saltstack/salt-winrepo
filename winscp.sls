@@ -1,7 +1,7 @@
 winscp:
   '5.9':
     full_name: 'WinSCP 5.9'
-    installer: 'http://freefr.dl.sourceforge.net/project/winscp/WinSCP/5.9/winscp-5.9-setup.exe'
+    installer: 'https://sourceforge.net/projects/winscp/files/WinSCP/5.9/WinSCP-5.9-Setup.exe'
     install_flags: '/SP- /verysilent /norestart'
     uninstaller: '%PROGRAMFILES(x86)%\WinSCP\unins000.exe'
     uninstall_flags: '/verysilent'
