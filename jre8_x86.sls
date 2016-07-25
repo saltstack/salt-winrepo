@@ -1,10 +1,27 @@
 jre8_x86:
-  '8.0.910.15':
+  '8.0.1010.13':
+    full_name: 'Java 8 Update 101'
+    installer: 'salt://win/repo/jre8_x86/jre-8u101-windows-i586.exe'
+    uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F32180101F0} /norestart'
+    # due to winrepo installer limitations you need to manually download the exe from
+    # http://javadl.oracle.com/webapps/download/AutoDL?BundleId=207773
+    # and put it on the winrepo on master to install it the 'salt://win/repo-ng/jre8_x86/... way
+    # to find manual download links for any version use:
+    # http://www.java.com/en/download/manual.jsp
+    # Do NOT use the 'archive' versions download page, use the 'manual' one above. The 'archive' one will give 
+    # you more versions and also different builds. IF you do use these, make sure you adapt your sls file accordingly.  
+    # http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
+    install_flags: '/s REBOOT=Suppress SPONSORS=0'
+    uninstaller: 'msiexec.exe'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '8.0.910.14':
     full_name: 'Java 8 Update 91'
     installer: 'salt://win/repo-ng/jre8_x86/jre-8u91-windows-i586.exe'
     install_flags: '/s REBOOT=Suppress SPONSORS=0'
     uninstaller: 'msiexec.exe'
-    uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F86418091F0} /norestart'
+    uninstall_flags: '/qn /x {26A24AE4-039D-4CA4-87B4-2F83218091F0} /norestart'
     msiexec: False
     locale: en_US
     reboot: False
