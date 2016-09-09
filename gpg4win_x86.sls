@@ -1,7 +1,7 @@
 gpg4win_x86:
-  '2.3.2':
-    full_name: 'Gpg4Win (2.3.2)'
-    installer: 'http://files.gpg4win.org/gpg4win-2.3.2.exe'
+  '2.3.3':
+    full_name: 'Gpg4Win (2.3.3)'
+    installer: 'http://files.gpg4win.org/gpg4win-2.3.3.exe'
     install_flags: '/S'
     uninstaller: '%ProgramFiles%\GNU\GnuPG\gpg4win-uninstall.exe'
     uninstall_flags: '/S'
