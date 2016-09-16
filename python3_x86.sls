@@ -1,4 +1,22 @@
 python3_x86:
+  '3.5.2150.0':
+    full_name: 'Python 3.5.2'
+    installer: 'https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe'
+    install_flags: '/quiet InstallAllUsers=1'
+    uninstaller: 'https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe'
+    uninstall_flags: '/uninstall'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '3.5.1150.0':
+    full_name: 'Python 3.5.1'
+    installer: 'https://www.python.org/ftp/python/3.5.1/python-3.5.1.exe'
+    install_flags: '/quiet InstallAllUsers=1'
+    uninstaller: 'https://www.python.org/ftp/python/3.5.1/python-3.5.1.exe'
+    uninstall_flags: '/uninstall'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '3.4.3150':
     full_name: 'Python 3.4.3'
     installer: 'https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi'
