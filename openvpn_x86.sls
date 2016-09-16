@@ -1,4 +1,13 @@
 openvpn_x86:
+  '2.3.12':
+    full_name: 'OpenVPN 2.3.12-I601'
+    installer: 'http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.12-I601-i686.exe'
+    install_flags: '/S /SELECT_OPENSSL_UTILITIES=1 /SELECT_EASYRSA=1 /SELECTSHORTCUTS=1 /SELECTOPENVPN=1 /SELECTASSOCIATIONS=1 /SELECTOPENVPNGUI=1 /SELECTPATH=1'
+    uninstaller: '%PROGRAMFILES%\OpenVPN\Uninstall.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2.3.8':
     full_name: 'OpenVPN 2.3.8-I601'
     installer: 'http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.8-I601-i686.exe'
