@@ -1,4 +1,13 @@
 winscp_x86:
+  '5.9.2':
+    full_name: 'WinSCP 5.9.2'
+    installer: 'https://sourceforge.net/projects/winscp/files/WinSCP/5.9.2/WinSCP-5.9.2-Setup.exe'
+    install_flags: '/SP- /verysilent /norestart'
+    uninstaller: '%PROGRAMFILES%\WinSCP\unins000.exe'
+    uninstall_flags: '/verysilent'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '5.9.1':
     full_name: 'WinSCP 5.9.1'
     installer: 'https://sourceforge.net/projects/winscp/files/WinSCP/5.9.1/WinSCP-5.9.1-Setup.exe'
