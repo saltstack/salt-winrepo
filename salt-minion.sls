@@ -39,6 +39,16 @@ salt-minion:
     msiexec: False
     locale: en_US
     reboot: False
+  '2015.8.12':
+    full_name: 'Salt Minion 2015.8.12'
+    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.12-AMD64-Setup.exe'
+    install_flags: '/S'
+    uninstaller: 'C:\salt\uninst.exe'
+    uninstall_flags: '/S'
+    refresh: true
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2015.8.11':
     full_name: 'Salt Minion 2015.8.11'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2015.8.11-AMD64-Setup.exe'
