@@ -1,5 +1,5 @@
 gvim:
-  '8.0.3':
+  'Not Found':
     full_name:  'Vim 8.0.3'
     installer: 'http://netcologne.dl.sourceforge.net/project/cream/Vim/8.0.3/gvim-8-0-3.exe'
     install_flags: '/S'
