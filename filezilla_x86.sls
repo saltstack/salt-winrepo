@@ -1,4 +1,13 @@
 filezilla_x86:
+  '3.21.0':
+    full_name: FileZilla Client 3.21.0
+    installer: 'http://vorboss.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.21.0/FileZilla_3.21.0_win32-setup.exe'
+    install_flags: '/S'
+    uninstaller: '%ProgramFiles%\FileZilla FTP Client\uninstall.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '3.16.0':
     full_name: FileZilla Client 3.16.0
     installer: 'http://vorboss.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.16.0/FileZilla_3.16.0_win32-setup.exe'
