@@ -1,12 +1,12 @@
 chocolatey:
-  '0.10.0':
-    full_name: 'Chocolatey v0.10.0'
+  '0.10.1':
+    full_name: 'Chocolatey v0.10.1'
     installer: 'https://chocolatey.org/installChocolatey.cmd'
     install_flags: |
                    ' &
                    reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f & 
-                   reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v DisplayName /d "Chocolatey v0.10.0" & 
-                   reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v DisplayVersion /d 0.10.0 & 
+                   reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v DisplayName /d "Chocolatey v0.10.1" & 
+                   reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v DisplayVersion /d 0.10.1 & 
                    reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v UninstallString /d "cmd /c choco uninstall chocolatey -y & del /F /S /Q c:\chocolatey\*.* & reg DEL HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey" & 
                    reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v Publisher /d "installed by salt winrepo" & 
                    reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f /v URLUpdateInfo /d "https://chocolatey.org" & 
