@@ -1,4 +1,13 @@
 7zip_x86:
+  '16.03.00.0':
+    full_name: '7-Zip 16.03'
+    installer: 'http://d.7-zip.org/a/7z1603.msi'
+    install_flags: '/qn ALLUSERS=1 /norestart'
+    uninstaller: 'http://d.7-zip.org/a/7z1603.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '16.02.00.0':
     full_name: '7-Zip 16.02'
     installer: 'http://d.7-zip.org/a/7z1602.msi'
