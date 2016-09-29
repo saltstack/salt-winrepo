@@ -1,4 +1,13 @@
 skype-msi: 
+  '7.28.101':
+    full_name: 'Skype™ 7.28'
+    installer: 'http://download.skype.com/msi/SkypeSetup_7.28.0.101.msi'
+    install_flags: '/qn /norestart STARTSKYPE=FALSE TRANSFORMS=:RemoveDesktopShortcut.mst TRANSFORMS=:RemoveStartup.mst'
+    uninstaller: 'http://download.skype.com/msi/SkypeSetup_7.28.0.101.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '7.27.101':
     full_name: 'Skype™ 7.27'
     installer: 'http://download.skype.com/msi/SkypeSetup_7.27.0.101.msi'
