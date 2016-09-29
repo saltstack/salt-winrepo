@@ -8,12 +8,3 @@ urlrewrite:
     msiexec: True
     locale: en_US
     reboot: False
-  '7.1.0490.43':
-    full_name: 'Microsoft URL Rewrite Module 1.1 for IIS 7'
-    installer: 'http://download.microsoft.com/download/0/3/E/03EBE3E1-494A-4DC7-B04B-F2B0A35FA988/rewrite_1.1_amd64_en-US.msi'
-    install_flags: '/quiet /norestart'
-    uninstaller: '{08A2E0FA-6BFC-4BFC-B8EA-8FBBB7DB1EA6}'
-    uninstall_flags: '/quiet /norestart'
-    msiexec: True
-    locale: en_US
-    reboot: False
