@@ -14,7 +14,6 @@ chocolatey:
     uninstaller: 'cmd'
     uninstall_flags: |
                      '/c choco uninstall chocolatey -y &
-                     del /F /S /Q c:\chocolatey\*.* > NUL &
                      reg DEL HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Chocolatey /f &
                      exit 0'
     msiexec: False
