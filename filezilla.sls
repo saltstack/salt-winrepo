@@ -1,4 +1,22 @@
 filezilla:
+  '3.22.1':
+    full_name: FileZilla Client 3.22.1
+    installer: 'http://netcologne.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.22.1/FileZilla_3.22.1_win64-setup.exe'
+    install_flags: '/S'
+    uninstaller: '%ProgramFiles%\FileZilla FTP Client\uninstall.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '3.22.0':
+    full_name: FileZilla Client 3.22.0
+    installer: 'http://netcologne.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.22.0/FileZilla_3.22.0_win64-setup.exe'
+    install_flags: '/S'
+    uninstaller: '%ProgramFiles%\FileZilla FTP Client\uninstall.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '3.21.0':
     full_name: FileZilla Client 3.21.0
     installer: 'http://netcologne.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.21.0/FileZilla_3.21.0_win64-setup.exe'
