@@ -1,20 +1,10 @@
 irfanview:
-  '4.40':
+  '4.42':
     full_name: 'IrfanView 64 (remove only)'
-    installer: 'salt://win/repo/irfanview/iview440_x64_setup.exe'
-    # download manually from: http://www.irfanview.info/files/iview440_x64_setup.exe and place on master
+    installer: 'salt://win/repo/irfanview/iview442_x64_setup.exe'
+    # download manually from: http://www.irfanview.info/files/iview442_x64_setup.exe and place on master
     install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
     uninstaller: '%PROGRAMFILES%\irfanview\iv_uninstall.exe'
-    uninstall_flags: '/silent'
-    msiexec: False
-    locale: en_US
-    reboot: False
-  '4.38':
-    full_name: 'IrfanView (remove only)'
-    installer: 'salt://win/repo/irfanview/iview438_setup.exe'
-    # download manually from: http://www.irfanview.info/files/iview438_setup.exe and place on master
-    install_flags: '/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0'
-    uninstaller: '%PROGRAMFILES(x86)%\irfanview\iv_uninstall.exe'
     uninstall_flags: '/silent'
     msiexec: False
     locale: en_US
@@ -29,4 +19,3 @@ irfanview:
 # assoc:     if used, set file associations; 0 = none, 1 = images only, 2 = select all (default: 0)
 # assocallusers:  if used, set associations for all users (Windows XP only)
 # ini:      if used, set custom INI file folder (system environment variables are allowed)
-# download manually from: http://www.irfanview.info/files/iview438_setup.exe and place on master
