@@ -1,3 +1,4 @@
+# 64-bit version introduced at ver. 7.0, will use only 32-bit installer as (almost) all plugins are only 32-bit for now
 npp_x86:
   '7.1':
     full_name: 'Notepad++ (32-bit x86)'
