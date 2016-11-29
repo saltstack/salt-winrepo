@@ -1,4 +1,14 @@
 salt-minion:
+  '2016.11.0':
+    full_name: 'Salt Minion 2016.11.0'
+    installer: 'https://repo.saltstack.com/windows/Salt-Minion-2016.11.0-AMD64-Setup.exe'
+    install_flags: '/S'
+    uninstaller: 'C:\salt\uninst.exe'
+    uninstall_flags: '/S'
+    refresh: true
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2016.3.4':
     full_name: 'Salt Minion 2016.3.4'
     installer: 'https://repo.saltstack.com/windows/Salt-Minion-2016.3.4-AMD64-Setup.exe'
