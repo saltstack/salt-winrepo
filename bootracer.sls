@@ -1,8 +1,8 @@
 bootracer:
   '6.50.0.450':
     full_name: 'BootRacer'
-    installer: 'salt://win/repo-ng/bootracer/bootracer-650.msi'
-    uninstaller: 'salt://win/repo-ng/bootracer/bootracer-650.msi'
+    installer: 'salt://win/repo/bootracer/bootracer-650.msi'
+    uninstaller: 'salt://win/repo/bootracer/bootracer-650.msi'
     install_flags: '/qn /norestart'
     uninstall_flags: '/qn /norestart'
     msiexec: True
