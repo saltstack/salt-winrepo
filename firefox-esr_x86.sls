@@ -1,5 +1,5 @@
 firefox-esr_x86:
- '45.5.1':
+  '45.5.1':
     full_name: 'Mozilla Firefox 45.5.1 ESR (x86 en-US)'
     installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.5.1esr/win32/en-US/Firefox%20Setup%2045.5.1esr.exe'
     install_flags: '/s'
