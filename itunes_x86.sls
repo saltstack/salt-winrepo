@@ -1,5 +1,5 @@
 itunes_x86:
-  '12.5.5.5':
+  '12.6.0.100':
     full_name: 'iTunes'
     installer: 'https://secure-appldnld.apple.com/itunes12/091-04059-20170323-2BBE2BB2-5737-4F97-AE9F-E7BE77A55307/iTunesSetup.exe'
     uninstall_flags: |
