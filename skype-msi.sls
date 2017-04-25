@@ -53,15 +53,6 @@ skype-msi:
     msiexec: True
     locale: en_US
     reboot: False
-  '7.23.105':
-    full_name: 'Skype™ 7.23'
-    installer: 'http://download.skype.com/msi/SkypeSetup_7.23.0.105.msi'
-    install_flags: '/qn /norestart STARTSKYPE=FALSE TRANSFORMS=:RemoveDesktopShortcut.mst TRANSFORMS=:RemoveStartup.mst'
-    uninstaller: 'http://download.skype.com/msi/SkypeSetup_7.23.0.105.msi'
-    uninstall_flags: '/qn /norestart'
-    msiexec: True
-    locale: en_US
-    reboot: False
 # you can always get latest msi from:
 # http://www.skype.com/go/getskype-msi (but version number keeps increasing)
 #
