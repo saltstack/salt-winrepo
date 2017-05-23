@@ -323,3 +323,12 @@ firefox_x86:
     msiexec: False
     locale: en_US
     reboot: False
+  '53.0.3':
+    full_name: 'Mozilla Firefox 53.0.3 (x86 en-US)'
+    installer: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/53.0.3/win32/en-US/Firefox%20Setup%2053.0.3.exe'
+    install_flags: '/s'
+    uninstaller: '%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe'
+    uninstall_flags: '/S'
+    msiexec: False
+    locale: en_US
+    reboot: False
