@@ -1,4 +1,13 @@
 nsclient:
+  '0.5.0.62':
+    full_name:  'NSClient++ (x64)'
+    installer: 'https://github.com/mickem/nscp/releases/download/0.5.0.62/NSCP-0.5.0.62-x64.msi'
+    install_flags: '/qn /norestart'
+    uninstaller: 'https://github.com/mickem/nscp/releases/download/0.5.0.62/NSCP-0.5.0.62-x64.msi'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
+    locale: en_US
+    reboot: False
   '0.4.4.23':
     full_name:  'NSClient++ (x64)'
     installer: 'https://github.com/mickem/nscp/releases/download/0.4.4.23/NSCP-0.4.4.23-x64.msi'
