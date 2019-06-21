@@ -1,4 +1,4 @@
-zabbix_agent:
+zabbix-agent:
   4.2.3.2400:
     {% if grains['cpuarch'] == 'AMD64' %}
     full_name: 'Zabbix Agent (64-bit)'
